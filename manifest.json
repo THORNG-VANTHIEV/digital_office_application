@@ -1,0 +1,15 @@
+{
+  "name": "កុំព្យូទ័រអនុវត្តន៍ក្នុងការិយាល័យ (Office 2021)",
+  "short_name": "Office 2021",
+  "description": "វេទិកាសិក្សាឌីជីថល កុំព្យូទ័រអនុវត្តន៍ក្នុងការិយាល័យ (Microsoft Word, Excel, PowerPoint 2021) សម្រាប់និស្សិត RPITSSR",
+  "lang": "km",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    { "src": "images/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "images/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
