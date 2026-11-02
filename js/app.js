@@ -41,6 +41,15 @@
         return m ? `~${kh(h)} ម៉ោង ${kh(m)} នាទី` : `~${kh(h)} ម៉ោង`;
       }
 
+      // Table cells are strings, or {text, colspan} for merged cells in the book
+      function cellText(c) {
+        return typeof c === 'string' ? c : (c && c.text) || '';
+      }
+      function tableCell(tag, c) {
+        const span = c && typeof c === 'object' && c.colspan > 1 ? ` colspan="${c.colspan}"` : '';
+        return `<${tag}${span}>${formatInlineContent(cellText(c))}</${tag}>`;
+      }
+
       function completeButtonInner(isDone) {
         return isDone
           ? `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> បានរៀនរួច`
@@ -712,9 +721,9 @@
               ${item.title ? `<div class="table-header-title">${formatInlineContent(item.title)}</div>` : ''}
               <div style="overflow-x:auto;">
                 <table class="data-table">
-                  ${item.headers && item.headers.length ? `<thead><tr>${item.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>` : ''}
+                  ${item.headers && item.headers.length ? `<thead><tr>${item.headers.map(h => tableCell('th', h)).join('')}</tr></thead>` : ''}
                   <tbody>
-                    ${item.rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}
+                    ${item.rows.map(r => `<tr>${r.map(c => tableCell('td', c)).join('')}</tr>`).join('')}
                   </tbody>
                 </table>
               </div>
@@ -732,7 +741,8 @@
                 html += `<div class="steps-container">`;
                 validSteps.forEach((st, stepIdx) => {
                   // Extract original step number from string if present (e.g. "1. ", "10. ")
-                  const numMatch = st.match(/^(\d+)\.\s*(.*)$/);
+                  // "1. text" or a sub-step "a. text"
+                  const numMatch = st.match(/^(\d+|[a-zA-Z])\.\s*([\s\S]*)$/);
                   const stepNumber = numMatch ? numMatch[1] : (stepIdx + 1);
                   const cleanStep = numMatch ? numMatch[2] : st.replace(/^(?:\d+\.|\-|\▪|\✓|\•|\*|\–)\s*/, '');
                   const trimmed = cleanStep.trim();
@@ -1061,6 +1071,7 @@
 
         <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border-color); text-align:right;">
           <div style="font-size:0.95rem; color:var(--text-muted);">${data.preface.signOff.location}, ${data.preface.signOff.date}</div>
+          ${data.preface.signOff.role ? `<div style="font-size:0.95rem; color:var(--text-muted); margin-top:0.35rem;">${data.preface.signOff.role}</div>` : ''}
           <div style="font-size:1.1rem; font-weight:700; color:var(--text-main); margin-top:0.35rem;">
             ${data.preface.signOff.author}
           </div>
@@ -1087,7 +1098,9 @@
           ${data.courseIntro.title}
         </h1>
         <div style="display:flex; flex-direction:column; gap:1.25rem; font-size:1.025rem; line-height:1.85; text-align:justify;">
-          ${data.courseIntro.content.split('\n\n').map(p => `<p class="prose-text">${formatInlineContent(p)}</p>`).join('')}
+          ${data.courseIntro.content.split('\n\n').map(p => p.startsWith('## ')
+            ? `<h2 class="subsection-heading" style="margin-top:0.5rem;">${formatInlineContent(p.slice(3))}</h2>`
+            : `<p class="prose-text">${formatInlineContent(p)}</p>`).join('')}
         </div>
       </article>
     `;
@@ -1206,6 +1219,8 @@
 
         // Format bullet points within lines
         res = res.replace(/\n\s*[\-\▪\✓\•]\s*/g, '<br/>• ');
+        // Keep the book's own line breaks (e.g. multi-line table cells and notes)
+        res = res.replace(/\n/g, '<br/>');
         return res;
       }
 
@@ -1234,9 +1249,51 @@
         el.searchModal.classList.remove('active');
       }
 
+      // Search index built from the lesson text itself, so every word in the book is searchable.
+      // Zero-width spaces (Khmer word breaks from the Word file) are removed for matching.
+      let searchIndexCache = null;
+      function toPlainText(str) {
+        return String(str || '').replace(/<[^>]+>/g, '').replace(/[​‌‍﻿]/g, '');
+      }
+      function buildSearchIndex(data) {
+        const index = [];
+        data.lessons.forEach(lesson => {
+          const lessonTitle = `មេរៀនទី${kh(lesson.number)}៖ ${toPlainText(lesson.title)}`;
+          index.push({
+            lessonId: lesson.id, sectionIdx: null, title: lessonTitle,
+            text: toPlainText([lesson.title, ...(lesson.objectives || [])].join(' '))
+          });
+          lesson.sections.forEach((sec, sIdx) => {
+            const parts = [sec.title];
+            sec.items.forEach(it => {
+              if (it.title) parts.push(it.title);
+              if (it.text) parts.push(it.text);
+              if (it.steps) parts.push(...it.steps);
+              if (it.items) parts.push(...it.items);
+              if (it.headers) parts.push(...it.headers.map(cellText));
+              if (it.rows) it.rows.forEach(r => parts.push(...r.map(cellText)));
+              if (it.caption) parts.push(it.caption);
+            });
+            index.push({
+              lessonId: lesson.id, sectionIdx: sIdx, title: toPlainText(sec.title),
+              text: toPlainText(parts.join(' ')).replace(/\s+/g, ' ')
+            });
+          });
+        });
+        return index;
+      }
+      function snippetAround(text, q) {
+        const i = text.toLowerCase().indexOf(q);
+        if (i < 0) return text.slice(0, 140);
+        const start = Math.max(0, i - 50);
+        return (start > 0 ? '… ' : '') + text.slice(start, i + q.length + 90) + (i + q.length + 90 < text.length ? ' …' : '');
+      }
+
       function performSearch(query) {
         const data = window.COURSE_DATA;
-        if (!data || !data.searchIndex) return;
+        if (!data || !data.lessons) return;
+        if (!searchIndexCache) searchIndexCache = buildSearchIndex(data);
+        query = toPlainText(query).trim();
 
         if (!query) {
           // Show sample suggested lessons
@@ -1254,9 +1311,9 @@
         }
 
         const q = query.toLowerCase();
-        const matches = data.searchIndex.filter(item => {
-          return item.keywords.toLowerCase().includes(q) || item.title.toLowerCase().includes(q) || item.snippet.toLowerCase().includes(q);
-        }).slice(0, 20);
+        const matches = searchIndexCache.filter(item => {
+          return item.title.toLowerCase().includes(q) || item.text.toLowerCase().includes(q);
+        }).slice(0, 30);
 
         if (matches.length === 0) {
           el.searchResults.innerHTML = `<li style="padding:2rem; text-align:center; color:var(--text-muted); font-size:0.95rem;">មិនមានលទ្ធផលស្វែងរកសម្រាប់ "${escapeHtml(query)}"</li>`;
@@ -1266,15 +1323,14 @@
         let html = '';
         matches.forEach(item => {
           const owner = data.lessons.find(l => l.id === item.lessonId);
-          const isLessonTitle = /^មេរៀនទី/.test(item.title);
-          const ownerLabel = owner && !isLessonTitle
-            ? `<div class="result-lesson-label">មេរៀនទី${kh(owner.number)}៖ ${escapeHtml(owner.title)}</div>`
+          const ownerLabel = owner && item.sectionIdx !== null
+            ? `<div class="result-lesson-label">មេរៀនទី${kh(owner.number)}៖ ${escapeHtml(toPlainText(owner.title))}</div>`
             : '';
           html += `
-        <li class="search-result-item" onclick="window.jumpToResult('${item.lessonId}')">
+        <li class="search-result-item" onclick="window.jumpToResult('${item.lessonId}', ${item.sectionIdx === null ? 'null' : item.sectionIdx})">
           ${ownerLabel}
           <div class="result-title">${highlightQuery(item.title, q)}</div>
-          <div class="result-snippet">${highlightQuery(item.snippet, q)}</div>
+          <div class="result-snippet">${highlightQuery(snippetAround(item.text, q), q)}</div>
         </li>
       `;
         });
@@ -1287,9 +1343,20 @@
         return escapeHtml(text).replace(regex, '<mark style="background-color:rgba(250, 204, 21, 0.4); border-radius:2px; padding:0 2px;">$1</mark>');
       }
 
-      window.jumpToResult = function (lessonId) {
+      // Open the lesson and scroll to the matching section
+      window.jumpToResult = function (lessonId, sectionIdx) {
         closeSearchModal();
-        window.location.hash = `#${lessonId}`;
+        const scrollToSection = () => {
+          if (sectionIdx === null || sectionIdx === undefined) return;
+          const target = document.getElementById(`section-${sectionIdx}`);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+        if (window.location.hash === `#${lessonId}`) {
+          scrollToSection();
+        } else {
+          window.location.hash = `#${lessonId}`;
+          setTimeout(scrollToSection, 60);
+        }
       };
 
       // Lightbox Modal

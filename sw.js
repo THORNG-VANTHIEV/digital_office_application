@@ -7,9 +7,10 @@
  * - Page/CSS/JS are fetched fresh when online (network first), so edits show up
  *   right away; the saved copy is only used when offline.
  *
- * After changing the list of shell files, bump CACHE_VERSION.
+ * Bump CACHE_VERSION after changing the shell file list OR replacing lesson images
+ * (images are cache-first, so students would otherwise keep seeing old screenshots).
  */
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2'; // v2: lessons rebuilt from the Word book (new screenshots)
 const SHELL_CACHE = `office2021-shell-${CACHE_VERSION}`;
 const IMAGE_CACHE = `office2021-images-${CACHE_VERSION}`;
 const FONT_CACHE = `office2021-fonts-${CACHE_VERSION}`;
