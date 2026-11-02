@@ -8,8 +8,8 @@ window.COURSE_DATA = {
     "institutionKh": "វិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប",
     "institutionEn": "Regional Polytechnic Institute Techo Sen Siem Reap (RPITSSR)",
     "year": "២០២៦",
-    "coverImage": "images/cover.jpg",
-    "logoImage": "images/logo.png",
+    "coverImage": "images/cover.webp",
+    "logoImage": "images/logo.webp",
     "totalLessons": 30,
     "totalChapters": 3,
     "totalPages": 271
@@ -130,7 +130,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-01.png",
+              "src": "images/lessons/lesson-01/fig-01.webp",
               "caption": "ដំណើរការកម្មវិធី Microsoft Word 2021"
             }
           ]
@@ -178,7 +178,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-02.png",
+              "src": "images/lessons/lesson-01/fig-02.webp",
               "caption": "ការស្វែងយល់ពីកម្មវិធី Microsoft Word 2021"
             },
             {
@@ -256,7 +256,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-03.png",
+              "src": "images/lessons/lesson-01/fig-03.webp",
               "caption": "Tab"
             },
             {
@@ -299,7 +299,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-04.png",
+              "src": "images/lessons/lesson-01/fig-04.webp",
               "caption": "File Menu"
             },
             {
@@ -312,7 +312,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-05.png",
+              "src": "images/lessons/lesson-01/fig-05.webp",
               "caption": "Quick Access Toolbar"
             }
           ]
@@ -434,7 +434,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-06.png",
+              "src": "images/lessons/lesson-01/fig-06.webp",
               "caption": "Key Tips"
             }
           ]
@@ -467,7 +467,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-07.png",
+              "src": "images/lessons/lesson-01/fig-07.webp",
               "caption": "ការមើលតាមរយៈ Scroll Bar"
             },
             {
@@ -532,7 +532,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-01/fig-08.png",
+              "src": "images/lessons/lesson-01/fig-08.webp",
               "caption": "ការមើលតាមរយៈ Go To"
             },
             {
@@ -582,7 +582,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-01.jpg",
+              "src": "images/lessons/lesson-02/fig-01.webp",
               "caption": "ការបង្កើតឯកសារថ្មី"
             }
           ]
@@ -618,7 +618,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-02.png",
+              "src": "images/lessons/lesson-02/fig-02.webp",
               "caption": "របៀបរៀបចំអត្ថបទ"
             },
             {
@@ -653,7 +653,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-03.jpg",
+              "src": "images/lessons/lesson-02/fig-03.webp",
               "caption": "របៀបរក្សាឯកសារទុក (How to save document)"
             },
             {
@@ -747,12 +747,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-04.png",
+              "src": "images/lessons/lesson-02/fig-04.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់មួយជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-05.png",
+              "src": "images/lessons/lesson-02/fig-05.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់មួយជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី២"
             },
             {
@@ -763,7 +763,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-06.png",
+              "src": "images/lessons/lesson-02/fig-06.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់មួយជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី៣"
             },
             {
@@ -786,7 +786,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-07.png",
+              "src": "images/lessons/lesson-02/fig-07.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់ពីរជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី១"
             },
             {
@@ -799,7 +799,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-08.png",
+              "src": "images/lessons/lesson-02/fig-08.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់ពីរជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី២"
             },
             {
@@ -810,7 +810,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-09.png",
+              "src": "images/lessons/lesson-02/fig-09.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់ពីរជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី៣"
             },
             {
@@ -821,7 +821,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-10.png",
+              "src": "images/lessons/lesson-02/fig-10.webp",
               "caption": "✍ របៀបចាក់សោសម្ងាត់ពីរជាន់ ដើម្បីសុវត្ថិភាពឯកសារ រូបទី៤"
             },
             {
@@ -857,12 +857,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-11.jpg",
+              "src": "images/lessons/lesson-02/fig-11.webp",
               "caption": "ការកំណត់សុវត្ថិភាពដោយ Encrypt Document រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-12.png",
+              "src": "images/lessons/lesson-02/fig-12.webp",
               "caption": "ការកំណត់សុវត្ថិភាពដោយ Encrypt Document រូបទី២"
             },
             {
@@ -874,7 +874,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-13.png",
+              "src": "images/lessons/lesson-02/fig-13.webp",
               "caption": "ការកំណត់សុវត្ថិភាពដោយ Encrypt Document រូបទី៣"
             },
             {
@@ -940,7 +940,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-14.jpg",
+              "src": "images/lessons/lesson-02/fig-14.webp",
               "caption": "របៀប Restrict Editing"
             },
             {
@@ -959,7 +959,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-15.png",
+              "src": "images/lessons/lesson-02/fig-15.webp",
               "caption": "របៀបដោះលេខសម្ងាត់ រូបទី១"
             },
             {
@@ -970,7 +970,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-16.png",
+              "src": "images/lessons/lesson-02/fig-16.webp",
               "caption": "របៀបដោះលេខសម្ងាត់ រូបទី២"
             },
             {
@@ -1013,12 +1013,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-17.png",
+              "src": "images/lessons/lesson-02/fig-17.webp",
               "caption": "ការបើកឯកសារ (Opening Files) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-18.png",
+              "src": "images/lessons/lesson-02/fig-18.webp",
               "caption": "ការបើកឯកសារ (Opening Files) រូបទី២"
             },
             {
@@ -1091,7 +1091,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-19.png",
+              "src": "images/lessons/lesson-02/fig-19.webp",
               "caption": "ការ Edit Text"
             }
           ]
@@ -1117,7 +1117,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-20.png",
+              "src": "images/lessons/lesson-02/fig-20.webp",
               "caption": "ការប្រើប្រាស់ Undo Single Action"
             },
             {
@@ -1162,7 +1162,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-02/fig-21.png",
+              "src": "images/lessons/lesson-02/fig-21.webp",
               "caption": "ការប្រើប្រាស់ Repeat"
             }
           ]
@@ -1216,7 +1216,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-01.png",
+              "src": "images/lessons/lesson-03/fig-01.webp",
               "caption": "របៀបជ្រើសរើស Margins គំរូ"
             },
             {
@@ -1234,7 +1234,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-02.png",
+              "src": "images/lessons/lesson-03/fig-02.webp",
               "caption": "ការចូលកំណត់លេខជាក់លាក់ (Entering Precise Margin Values)"
             }
           ]
@@ -1257,7 +1257,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-03.png",
+              "src": "images/lessons/lesson-03/fig-03.webp",
               "caption": "ការកំណត់ Gutter Margins"
             }
           ]
@@ -1279,7 +1279,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-04.png",
+              "src": "images/lessons/lesson-03/fig-04.webp",
               "caption": "ការកំណត់ Multiple Pages"
             },
             {
@@ -1320,7 +1320,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-05.png",
+              "src": "images/lessons/lesson-03/fig-05.webp",
               "caption": "ការកំណត់ Page Orientation"
             },
             {
@@ -1344,7 +1344,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-06.png",
+              "src": "images/lessons/lesson-03/fig-06.webp",
               "caption": "ការកំណត់ខ្នាតក្រដាស (Paper Size)"
             }
           ]
@@ -1385,12 +1385,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-07.png",
+              "src": "images/lessons/lesson-03/fig-07.webp",
               "caption": "ការកំណត់ Column Break រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-08.png",
+              "src": "images/lessons/lesson-03/fig-08.webp",
               "caption": "ការកំណត់ Column Break រូបទី២"
             }
           ]
@@ -1411,7 +1411,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-09.png",
+              "src": "images/lessons/lesson-03/fig-09.webp",
               "caption": "ការប្រើប្រាស់ Section Breaks (How to use Section Breaks)"
             },
             {
@@ -1442,7 +1442,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-10.jpg",
+              "src": "images/lessons/lesson-03/fig-10.webp",
               "caption": "ការប្រើប្រាស់ Header and Footer (Using Header and Footer) រូបទី១"
             },
             {
@@ -1471,7 +1471,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-03/fig-11.png",
+              "src": "images/lessons/lesson-03/fig-11.webp",
               "caption": "ការប្រើប្រាស់ Header and Footer (Using Header and Footer) រូបទី២"
             }
           ]
@@ -1535,7 +1535,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-01.png",
+              "src": "images/lessons/lesson-04/fig-01.webp",
               "caption": "របៀបចូល Spelling និង Grammar រូបទី១"
             },
             {
@@ -1552,7 +1552,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-02.jpg",
+              "src": "images/lessons/lesson-04/fig-02.webp",
               "caption": "របៀបចូល Spelling និង Grammar រូបទី២"
             },
             {
@@ -1582,7 +1582,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-03.png",
+              "src": "images/lessons/lesson-04/fig-03.webp",
               "caption": "របៀបចូលកែតម្រូវពាក្យខុស"
             },
             {
@@ -1614,7 +1614,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-04.png",
+              "src": "images/lessons/lesson-04/fig-04.webp",
               "caption": "របៀបបិទ ឬ បើក Spelling and Grammar Checking"
             }
           ]
@@ -1648,7 +1648,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-05.jpg",
+              "src": "images/lessons/lesson-04/fig-05.webp",
               "caption": "ក. របៀប Find Text"
             },
             {
@@ -1666,7 +1666,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-06.png",
+              "src": "images/lessons/lesson-04/fig-06.webp",
               "caption": "ខ. របៀបទី២ Find Text"
             },
             {
@@ -1734,7 +1734,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-07.png",
+              "src": "images/lessons/lesson-04/fig-07.webp",
               "caption": "របៀបប្តូរអក្សរ (Replace Text)"
             }
           ]
@@ -1771,7 +1771,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-08.jpg",
+              "src": "images/lessons/lesson-04/fig-08.webp",
               "caption": "របៀបប្រើប្រាស់ Word Count"
             }
           ]
@@ -1846,7 +1846,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-04/fig-09.png",
+              "src": "images/lessons/lesson-04/fig-09.webp",
               "caption": "របៀប Moving and Copying តាមរយៈ Mouse"
             }
           ]
@@ -1892,12 +1892,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-01.png",
+              "src": "images/lessons/lesson-05/fig-01.webp",
               "caption": "ការផ្លាស់ប្តូរប្រភេទអក្សរ រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-02.png",
+              "src": "images/lessons/lesson-05/fig-02.webp",
               "caption": "ការផ្លាស់ប្តូរប្រភេទអក្សរ រូបទី២"
             },
             {
@@ -1919,7 +1919,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-03.png",
+              "src": "images/lessons/lesson-05/fig-03.webp",
               "caption": "ការផ្លាស់ប្តូរទំហំអក្សរ"
             },
             {
@@ -1935,7 +1935,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-04.png",
+              "src": "images/lessons/lesson-05/fig-04.webp",
               "caption": "ចំណាំ"
             },
             {
@@ -1952,7 +1952,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-05.png",
+              "src": "images/lessons/lesson-05/fig-05.webp",
               "caption": "របៀបគូសបន្ទាត់"
             },
             {
@@ -1974,7 +1974,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-06.png",
+              "src": "images/lessons/lesson-05/fig-06.webp",
               "caption": "របៀបផ្លាស់ប្តូរពណ៌អក្សរ (Font Color)"
             },
             {
@@ -2001,7 +2001,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-07.png",
+              "src": "images/lessons/lesson-05/fig-07.webp",
               "caption": "ក. របៀបប្រើ Font Effects"
             },
             {
@@ -2035,7 +2035,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-08.png",
+              "src": "images/lessons/lesson-05/fig-08.webp",
               "caption": "ខ. របៀបប្រើ Text Effects"
             },
             {
@@ -2063,7 +2063,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-09.png",
+              "src": "images/lessons/lesson-05/fig-09.webp",
               "caption": "របៀបគូសសម្គាល់អក្សរ (Text Highlight)"
             },
             {
@@ -2085,7 +2085,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-10.png",
+              "src": "images/lessons/lesson-05/fig-10.webp",
               "caption": "របៀបកែតម្រូវគម្លាតអក្សរ (Adjusting Character Spacing)"
             },
             {
@@ -2141,7 +2141,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-11.png",
+              "src": "images/lessons/lesson-05/fig-11.webp",
               "caption": "របៀបកំណត់ Change Case"
             },
             {
@@ -2174,7 +2174,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-12.png",
+              "src": "images/lessons/lesson-05/fig-12.webp",
               "caption": "ការបង្កើតអក្សរធំ Drop Caps"
             }
           ]
@@ -2205,7 +2205,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-13.png",
+              "src": "images/lessons/lesson-05/fig-13.webp",
               "caption": "ការប្រើប្រាស់ Symbols"
             },
             {
@@ -2225,7 +2225,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-14.png",
+              "src": "images/lessons/lesson-05/fig-14.webp",
               "caption": "ការប្រើប្រាស់ Equation"
             }
           ]
@@ -2264,7 +2264,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-15.png",
+              "src": "images/lessons/lesson-05/fig-15.webp",
               "caption": "ខ. របៀបបង្កើត Multilevel List"
             }
           ]
@@ -2303,7 +2303,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-16.png",
+              "src": "images/lessons/lesson-05/fig-16.webp",
               "caption": "របៀបផ្លាស់ប្តូរកថាខណ្ឌ (Changing Paragraph Alignment)"
             },
             {
@@ -2333,12 +2333,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-17.png",
+              "src": "images/lessons/lesson-05/fig-17.webp",
               "caption": "ក. របៀបប្រើ Border រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-18.png",
+              "src": "images/lessons/lesson-05/fig-18.webp",
               "caption": "ក. របៀបប្រើ Border រូបទី២"
             },
             {
@@ -2356,7 +2356,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-19.png",
+              "src": "images/lessons/lesson-05/fig-19.webp",
               "caption": "ខ. របៀបប្រើ Shading"
             },
             {
@@ -2375,7 +2375,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-20.png",
+              "src": "images/lessons/lesson-05/fig-20.webp",
               "caption": "គ. របៀបប្រើ Border and Shading តាមរយៈ Dialog Box"
             },
             {
@@ -2397,7 +2397,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-21.png",
+              "src": "images/lessons/lesson-05/fig-21.webp",
               "caption": "ការផ្លាស់ប្តូរគម្លាតបន្ទាត់ (Changing Line Spacing)"
             },
             {
@@ -2431,7 +2431,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-22.png",
+              "src": "images/lessons/lesson-05/fig-22.webp",
               "caption": "ការផ្លាស់ប្តូររវាងគម្លាត និងកថាខណ្ឌ"
             },
             {
@@ -2453,7 +2453,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-23.png",
+              "src": "images/lessons/lesson-05/fig-23.webp",
               "caption": "ការប្រើប្រាស់ Left and Right Indents"
             },
             {
@@ -2479,7 +2479,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-24.png",
+              "src": "images/lessons/lesson-05/fig-24.webp",
               "caption": "ការប្រើប្រាស់ Hanging and First Line Indents"
             }
           ]
@@ -2500,7 +2500,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-25.png",
+              "src": "images/lessons/lesson-05/fig-25.webp",
               "caption": "ការកំណត់ Text Direction"
             }
           ]
@@ -2528,7 +2528,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-26.png",
+              "src": "images/lessons/lesson-05/fig-26.webp",
               "caption": "របៀបកំណត់ Tab នៅលើ Ruler"
             },
             {
@@ -2548,7 +2548,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-27.png",
+              "src": "images/lessons/lesson-05/fig-27.webp",
               "caption": "របៀបកំណត់ Tabs នៅក្នុង Tabs Dialog Box"
             },
             {
@@ -2582,7 +2582,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-28.png",
+              "src": "images/lessons/lesson-05/fig-28.webp",
               "caption": "របៀបកំណត់ Macro រូបទី១"
             },
             {
@@ -2593,7 +2593,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-29.png",
+              "src": "images/lessons/lesson-05/fig-29.webp",
               "caption": "របៀបកំណត់ Macro រូបទី២"
             },
             {
@@ -2606,7 +2606,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-30.png",
+              "src": "images/lessons/lesson-05/fig-30.webp",
               "caption": "របៀបកំណត់ Macro រូបទី៣"
             },
             {
@@ -2632,7 +2632,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-31.png",
+              "src": "images/lessons/lesson-05/fig-31.webp",
               "caption": "របៀបលុប Macros រូបទី១"
             },
             {
@@ -2643,7 +2643,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-05/fig-32.png",
+              "src": "images/lessons/lesson-05/fig-32.webp",
               "caption": "របៀបលុប Macros រូបទី២"
             },
             {
@@ -2696,7 +2696,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-01.png",
+              "src": "images/lessons/lesson-06/fig-01.webp",
               "caption": "ការប្រើប្រាស់ SmartArt (Using SmartArt)"
             }
           ]
@@ -2715,7 +2715,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-02.jpg",
+              "src": "images/lessons/lesson-06/fig-02.webp",
               "caption": "ការបញ្ចូលរូបភាព និងរចនា (Insert Pictures and Colors)"
             }
           ]
@@ -2733,7 +2733,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-03.png",
+              "src": "images/lessons/lesson-06/fig-03.webp",
               "caption": "ការប្តូរទីតាំងរូបភាព (Changing Position Pictures)"
             }
           ]
@@ -2759,7 +2759,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-04.png",
+              "src": "images/lessons/lesson-06/fig-04.webp",
               "caption": "ការកាត់រូបភាព (Crop Pictures)"
             },
             {
@@ -2776,7 +2776,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-05.png",
+              "src": "images/lessons/lesson-06/fig-05.webp",
               "caption": "ការប្តូរពណ៌រូបភាព (Change Sharpen/Soften)"
             },
             {
@@ -2797,7 +2797,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-06.png",
+              "src": "images/lessons/lesson-06/fig-06.webp",
               "caption": "ការផ្លាស់ប្តូរទម្រង់ Style របស់រូបភាព (Change Format Style)"
             },
             {
@@ -2819,7 +2819,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-07.png",
+              "src": "images/lessons/lesson-06/fig-07.webp",
               "caption": "ការដាក់ Effects ពិសេសនៅលើរូបភាព (Take Picture Effects)"
             },
             {
@@ -2837,7 +2837,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-08.png",
+              "src": "images/lessons/lesson-06/fig-08.webp",
               "caption": "ការដាក់ពណ៌ស៊ុមជុំវិញរូបភាព (Picture Border)"
             }
           ]
@@ -2864,12 +2864,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-09.png",
+              "src": "images/lessons/lesson-06/fig-09.webp",
               "caption": "របៀបបង្កើតអក្សរឆ្លាក់ រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-10.png",
+              "src": "images/lessons/lesson-06/fig-10.webp",
               "caption": "របៀបបង្កើតអក្សរឆ្លាក់ រូបទី២"
             },
             {
@@ -2896,22 +2896,22 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-11.png",
+              "src": "images/lessons/lesson-06/fig-11.webp",
               "caption": "របៀបប្រើ WordArt Styles រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-12.png",
+              "src": "images/lessons/lesson-06/fig-12.webp",
               "caption": "របៀបប្រើ WordArt Styles រូបទី២"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-13.png",
+              "src": "images/lessons/lesson-06/fig-13.webp",
               "caption": "របៀបប្រើ WordArt Styles រូបទី៣"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-06/fig-14.png",
+              "src": "images/lessons/lesson-06/fig-14.webp",
               "caption": "របៀបប្រើ WordArt Styles រូបទី៤"
             }
           ]
@@ -2953,7 +2953,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-01.jpg",
+              "src": "images/lessons/lesson-07/fig-01.webp",
               "caption": "របៀបកំណត់ Comment រូបទី១"
             },
             {
@@ -2966,7 +2966,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-02.jpg",
+              "src": "images/lessons/lesson-07/fig-02.webp",
               "caption": "របៀបកំណត់ Comment រូបទី២"
             },
             {
@@ -2982,7 +2982,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-03.jpg",
+              "src": "images/lessons/lesson-07/fig-03.webp",
               "caption": "របៀបលុប Comment (How to delete comment)"
             }
           ]
@@ -3010,7 +3010,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-04.png",
+              "src": "images/lessons/lesson-07/fig-04.webp",
               "caption": "ការកត់ចំណាំដោយប្រើ Footnote រូបទី១"
             },
             {
@@ -3051,7 +3051,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-05.png",
+              "src": "images/lessons/lesson-07/fig-05.webp",
               "caption": "ការកត់ចំណាំដោយប្រើ Footnote រូបទី២"
             },
             {
@@ -3070,7 +3070,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-06.png",
+              "src": "images/lessons/lesson-07/fig-06.webp",
               "caption": "ការកត់ចំណាំដោយប្រើ Endnote រូបទី១"
             },
             {
@@ -3088,7 +3088,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-07.png",
+              "src": "images/lessons/lesson-07/fig-07.webp",
               "caption": "ការកត់ចំណាំដោយប្រើ Endnote រូបទី២"
             },
             {
@@ -3125,7 +3125,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-08.png",
+              "src": "images/lessons/lesson-07/fig-08.webp",
               "caption": "របៀបបង្កើត Bookmark រូបទី១"
             },
             {
@@ -3136,7 +3136,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-09.png",
+              "src": "images/lessons/lesson-07/fig-09.webp",
               "caption": "របៀបបង្កើត Bookmark រូបទី២"
             },
             {
@@ -3154,7 +3154,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-10.png",
+              "src": "images/lessons/lesson-07/fig-10.webp",
               "caption": "របៀបស្វែងរកពាក្យក្នុង Bookmark"
             },
             {
@@ -3172,7 +3172,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-11.png",
+              "src": "images/lessons/lesson-07/fig-11.webp",
               "caption": "របៀបលុបពាក្យក្នុង Bookmark"
             }
           ]
@@ -3195,7 +3195,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-12.png",
+              "src": "images/lessons/lesson-07/fig-12.webp",
               "caption": "ការភ្ជាប់ឯកសារដោយ Hyperlink"
             },
             {
@@ -3216,7 +3216,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-13.png",
+              "src": "images/lessons/lesson-07/fig-13.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ឯកសារដែលមាន ឬទៅកាន់ទំព័រ Website រូបទី១"
             },
             {
@@ -3227,7 +3227,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-14.png",
+              "src": "images/lessons/lesson-07/fig-14.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ឯកសារដែលមាន ឬទៅកាន់ទំព័រ Website រូបទី២"
             },
             {
@@ -3265,7 +3265,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-13.png",
+              "src": "images/lessons/lesson-07/fig-13.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ផ្នែកណាមួយតែនៅក្នុងឯកសារកំពុងតែប្រើប្រាស់ រូបទី១"
             },
             {
@@ -3276,7 +3276,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-15.jpg",
+              "src": "images/lessons/lesson-07/fig-15.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ផ្នែកណាមួយតែនៅក្នុងឯកសារកំពុងតែប្រើប្រាស់ រូបទី២"
             },
             {
@@ -3327,7 +3327,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-13.png",
+              "src": "images/lessons/lesson-07/fig-13.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ឯកសារបង្កើតថ្មី រូបទី១"
             },
             {
@@ -3338,7 +3338,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-16.jpg",
+              "src": "images/lessons/lesson-07/fig-16.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ឯកសារបង្កើតថ្មី រូបទី២"
             },
             {
@@ -3390,7 +3390,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-13.png",
+              "src": "images/lessons/lesson-07/fig-13.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ការប្រើប្រាស់ E-mail រូបទី១"
             },
             {
@@ -3401,7 +3401,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-07/fig-17.png",
+              "src": "images/lessons/lesson-07/fig-17.webp",
               "caption": "ការភ្ជាប់ Link ទៅកាន់ការប្រើប្រាស់ E-mail រូបទី២"
             },
             {
@@ -3468,7 +3468,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-01.png",
+              "src": "images/lessons/lesson-08/fig-01.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី១"
             },
             {
@@ -3480,7 +3480,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-02.png",
+              "src": "images/lessons/lesson-08/fig-02.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី២"
             },
             {
@@ -3493,7 +3493,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-03.jpg",
+              "src": "images/lessons/lesson-08/fig-03.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី៣"
             },
             {
@@ -3511,7 +3511,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-04.jpg",
+              "src": "images/lessons/lesson-08/fig-04.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី៤"
             },
             {
@@ -3525,7 +3525,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-05.jpg",
+              "src": "images/lessons/lesson-08/fig-05.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី៥"
             },
             {
@@ -3547,7 +3547,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-06.png",
+              "src": "images/lessons/lesson-08/fig-06.webp",
               "caption": "ការរៀបចំ Heading Styles រូបទី៦"
             },
             {
@@ -3562,7 +3562,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-07.jpg",
+              "src": "images/lessons/lesson-08/fig-07.webp",
               "caption": "ការរៀបចំ Level ក្នុង Outline រូបទី១"
             },
             {
@@ -3575,7 +3575,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-08.jpg",
+              "src": "images/lessons/lesson-08/fig-08.webp",
               "caption": "ការរៀបចំ Level ក្នុង Outline រូបទី២"
             },
             {
@@ -3589,7 +3589,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-09.png",
+              "src": "images/lessons/lesson-08/fig-09.webp",
               "caption": "ការរៀបចំ Level ក្នុង Outline រូបទី៣"
             },
             {
@@ -3622,7 +3622,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-10.jpg",
+              "src": "images/lessons/lesson-08/fig-10.webp",
               "caption": "របៀប Update មាតិកា"
             },
             {
@@ -3715,7 +3715,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-11.png",
+              "src": "images/lessons/lesson-08/fig-11.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី១"
             },
             {
@@ -3727,7 +3727,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-12.png",
+              "src": "images/lessons/lesson-08/fig-12.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី២"
             },
             {
@@ -3739,12 +3739,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-13.jpg",
+              "src": "images/lessons/lesson-08/fig-13.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី៣"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-14.png",
+              "src": "images/lessons/lesson-08/fig-14.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី៤"
             },
             {
@@ -3755,12 +3755,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-15.jpg",
+              "src": "images/lessons/lesson-08/fig-15.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី៥"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-16.png",
+              "src": "images/lessons/lesson-08/fig-16.webp",
               "caption": "ការរៀបចំ Mail Merge រូបទី៦"
             },
             {
@@ -3777,7 +3777,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-08/fig-17.jpg",
+              "src": "images/lessons/lesson-08/fig-17.webp",
               "caption": "របៀបបោះពុម្ពតាមរយៈ Mail Merge"
             },
             {
@@ -3860,7 +3860,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-01.png",
+              "src": "images/lessons/lesson-09/fig-01.webp",
               "caption": "ការបង្កើតតារាង"
             }
           ]
@@ -3914,12 +3914,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-02.png",
+              "src": "images/lessons/lesson-09/fig-02.webp",
               "caption": "ការកំណត់ចន្លោះជួរដេក ជួរឈរ និងតារាងទាំងមូល រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-03.png",
+              "src": "images/lessons/lesson-09/fig-03.webp",
               "caption": "ការកំណត់ចន្លោះជួរដេក ជួរឈរ និងតារាងទាំងមូល រូបទី២"
             }
           ]
@@ -3940,7 +3940,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-04.png",
+              "src": "images/lessons/lesson-09/fig-04.webp",
               "caption": "ការពង្រីកតារាងដោយប្រើ Mouse"
             },
             {
@@ -3956,7 +3956,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-05.png",
+              "src": "images/lessons/lesson-09/fig-05.webp",
               "caption": "ការផ្លាស់ទីតារាង"
             }
           ]
@@ -3974,7 +3974,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-06.png",
+              "src": "images/lessons/lesson-09/fig-06.webp",
               "caption": "ការកែតម្រូវតារាង និងពង្រីកតារាង"
             },
             {
@@ -4007,7 +4007,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-07.png",
+              "src": "images/lessons/lesson-09/fig-07.webp",
               "caption": "ការរៀបចំកំណត់ចន្លោះ"
             },
             {
@@ -4030,7 +4030,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-07.png",
+              "src": "images/lessons/lesson-09/fig-07.webp",
               "caption": "ផ្លាស់ប្តូរទិសដៅ របស់អត្ថបទ រូបទី១"
             },
             {
@@ -4050,7 +4050,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-08.png",
+              "src": "images/lessons/lesson-09/fig-08.webp",
               "caption": "ផ្លាស់ប្តូរទិសដៅ របស់អត្ថបទ រូបទី២"
             },
             {
@@ -4100,7 +4100,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-09.png",
+              "src": "images/lessons/lesson-09/fig-09.webp",
               "caption": "ផ្លាស់ប្តូរ Cell Margins"
             },
             {
@@ -4136,7 +4136,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-10.png",
+              "src": "images/lessons/lesson-09/fig-10.webp",
               "caption": "ការរំលាយ Cells ច្រើនធ្វើជា Cells តែមួយ"
             },
             {
@@ -4159,7 +4159,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-11.png",
+              "src": "images/lessons/lesson-09/fig-11.webp",
               "caption": "ការភ្ជាប់ Cells"
             },
             {
@@ -4181,7 +4181,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-12.png",
+              "src": "images/lessons/lesson-09/fig-12.webp",
               "caption": "ផ្តាច់តារាង"
             },
             {
@@ -4317,7 +4317,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-13.png",
+              "src": "images/lessons/lesson-09/fig-13.webp",
               "caption": "ការបន្ថែមជួរដេក"
             },
             {
@@ -4341,7 +4341,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-14.png",
+              "src": "images/lessons/lesson-09/fig-14.webp",
               "caption": "ការបន្ថែមជួរឈរ"
             },
             {
@@ -4358,7 +4358,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-15.png",
+              "src": "images/lessons/lesson-09/fig-15.webp",
               "caption": "ការលុបជួរដេក និង ជួរឈរ"
             },
             {
@@ -4386,7 +4386,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-16.png",
+              "src": "images/lessons/lesson-09/fig-16.webp",
               "caption": "ការកែតម្រូវកម្ពស់ជួរដេក និង ប្រវែងជួរឈរ"
             }
           ]
@@ -4413,7 +4413,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-17.png",
+              "src": "images/lessons/lesson-09/fig-17.webp",
               "caption": "គូសបន្ទាត់"
             },
             {
@@ -4431,7 +4431,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-18.png",
+              "src": "images/lessons/lesson-09/fig-18.webp",
               "caption": "ការលុបបន្ទាត់"
             },
             {
@@ -4452,7 +4452,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-19.png",
+              "src": "images/lessons/lesson-09/fig-19.webp",
               "caption": "ការងារជាមួយការដាក់ខ្សែបន្ទាត់ និងពណ៌ រូបទី១"
             },
             {
@@ -4476,7 +4476,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-20.png",
+              "src": "images/lessons/lesson-09/fig-20.webp",
               "caption": "ការងារជាមួយការដាក់ខ្សែបន្ទាត់ និងពណ៌ រូបទី២"
             }
           ]
@@ -4506,7 +4506,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-21.png",
+              "src": "images/lessons/lesson-09/fig-21.webp",
               "caption": "ការដាក់ម៉ូតតារាង"
             },
             {
@@ -4647,12 +4647,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-22.png",
+              "src": "images/lessons/lesson-09/fig-22.webp",
               "caption": "ការគណនារូបមន្ត រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-23.png",
+              "src": "images/lessons/lesson-09/fig-23.webp",
               "caption": "ការគណនារូបមន្ត រូបទី២"
             },
             {
@@ -4679,7 +4679,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-09/fig-24.png",
+              "src": "images/lessons/lesson-09/fig-24.webp",
               "caption": "ការសង់ក្រាហ្វិក (Chart)"
             }
           ]
@@ -4717,7 +4717,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-01.jpg",
+              "src": "images/lessons/lesson-10/fig-01.webp",
               "caption": "របៀបប្រើ Document Views"
             },
             {
@@ -4749,7 +4749,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-02.png",
+              "src": "images/lessons/lesson-10/fig-02.webp",
               "caption": "របៀបប្រើ Zoom"
             }
           ]
@@ -4763,7 +4763,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-03.png",
+              "src": "images/lessons/lesson-10/fig-03.webp",
               "caption": "មើលផ្ទៃសន្លឹកកិច្ចការ (Window)"
             },
             {
@@ -4791,7 +4791,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-04.jpg",
+              "src": "images/lessons/lesson-10/fig-04.webp",
               "caption": "ការមើលឯកសារទាំងអស់ក្នុងពេលតែមួយ (Arrange All)"
             },
             {
@@ -4812,7 +4812,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-05.jpg",
+              "src": "images/lessons/lesson-10/fig-05.webp",
               "caption": "ការផ្តាច់ផ្ទៃការងារសម្រាប់មើល (Split)"
             },
             {
@@ -4833,12 +4833,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-06.png",
+              "src": "images/lessons/lesson-10/fig-06.webp",
               "caption": "ការមើលកិច្ចការសម្រាប់ប្រៀបធៀប (View Side by Side) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-10/fig-07.jpg",
+              "src": "images/lessons/lesson-10/fig-07.webp",
               "caption": "ការមើលកិច្ចការសម្រាប់ប្រៀបធៀប (View Side by Side) រូបទី២"
             }
           ]
@@ -4877,7 +4877,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-01.png",
+              "src": "images/lessons/lesson-11/fig-01.webp",
               "caption": "ការបង្ហាញ និងលាក់ Text Boundaries"
             },
             {
@@ -4906,7 +4906,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-02.png",
+              "src": "images/lessons/lesson-11/fig-02.webp",
               "caption": "ការប្តូរខ្នាតសម្រាប់កំណត់ Margins"
             },
             {
@@ -4939,7 +4939,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-03.png",
+              "src": "images/lessons/lesson-11/fig-03.webp",
               "caption": "ការកំណត់ AutoCorrect Options រូបទី១"
             },
             {
@@ -4950,7 +4950,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-04.png",
+              "src": "images/lessons/lesson-11/fig-04.webp",
               "caption": "ការកំណត់ AutoCorrect Options រូបទី២"
             },
             {
@@ -4971,7 +4971,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-05.png",
+              "src": "images/lessons/lesson-11/fig-05.webp",
               "caption": "ការកំណត់ AutoCorrect Options រូបទី៣"
             },
             {
@@ -4980,7 +4980,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-11/fig-06.png",
+              "src": "images/lessons/lesson-11/fig-06.webp",
               "caption": "ការកំណត់ AutoCorrect Options រូបទី៤"
             },
             {
@@ -5046,7 +5046,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-12/fig-01.png",
+              "src": "images/lessons/lesson-12/fig-01.webp",
               "caption": "របៀបបោះពុម្ពឯកសារ"
             },
             {
@@ -5111,7 +5111,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-13/fig-01.jpg",
+              "src": "images/lessons/lesson-13/fig-01.webp",
               "caption": "ដំណើរការកម្មវិធី Excel 2021"
             }
           ]
@@ -5130,7 +5130,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-13/fig-02.png",
+              "src": "images/lessons/lesson-13/fig-02.webp",
               "caption": "ការស្វែងយល់អំពីកម្មវិធី Excel"
             },
             {
@@ -5192,7 +5192,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-01.png",
+              "src": "images/lessons/lesson-14/fig-01.webp",
               "caption": "ការបង្កើត Workbook"
             }
           ]
@@ -5213,7 +5213,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-02.png",
+              "src": "images/lessons/lesson-14/fig-02.webp",
               "caption": "របៀបរក្សាទុកឯកសារ (Save as)"
             },
             {
@@ -5252,7 +5252,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-03.png",
+              "src": "images/lessons/lesson-14/fig-03.webp",
               "caption": "របៀបកំណត់សុវត្ថិភាពឯកសារ រូបទី១"
             },
             {
@@ -5263,7 +5263,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-04.png",
+              "src": "images/lessons/lesson-14/fig-04.webp",
               "caption": "របៀបកំណត់សុវត្ថិភាពឯកសារ រូបទី២"
             },
             {
@@ -5275,7 +5275,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-05.jpg",
+              "src": "images/lessons/lesson-14/fig-05.webp",
               "caption": "របៀបកំណត់សុវត្ថិភាពឯកសារ រូបទី៣"
             },
             {
@@ -5287,7 +5287,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-06.jpg",
+              "src": "images/lessons/lesson-14/fig-06.webp",
               "caption": "របៀបកំណត់សុវត្ថិភាពឯកសារ រូបទី៤"
             },
             {
@@ -5328,7 +5328,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-07.png",
+              "src": "images/lessons/lesson-14/fig-07.webp",
               "caption": "ការកំណត់សុវត្ថិភាពឯកសារដោយ Protect Workbook រូបទី១"
             },
             {
@@ -5340,7 +5340,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-08.jpg",
+              "src": "images/lessons/lesson-14/fig-08.webp",
               "caption": "ការកំណត់សុវត្ថិភាពឯកសារដោយ Protect Workbook រូបទី២"
             },
             {
@@ -5373,7 +5373,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-09.png",
+              "src": "images/lessons/lesson-14/fig-09.webp",
               "caption": "របៀបបើកឯកសារ (Open Workbook) រូបទី១"
             },
             {
@@ -5384,7 +5384,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-10.png",
+              "src": "images/lessons/lesson-14/fig-10.webp",
               "caption": "របៀបបើកឯកសារ (Open Workbook) រូបទី២"
             },
             {
@@ -5410,7 +5410,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-11.png",
+              "src": "images/lessons/lesson-14/fig-11.webp",
               "caption": "របៀបដោះលេខសម្ងាត់ចេញពីឯកសារ (Unprotect Password)"
             },
             {
@@ -5438,7 +5438,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-12.png",
+              "src": "images/lessons/lesson-14/fig-12.webp",
               "caption": "របៀបដាក់លេខសម្ងាត់ការពារ Sheet (Protect Sheet) រូបទី១"
             },
             {
@@ -5450,7 +5450,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-13.png",
+              "src": "images/lessons/lesson-14/fig-13.webp",
               "caption": "របៀបដាក់លេខសម្ងាត់ការពារ Sheet (Protect Sheet) រូបទី២"
             },
             {
@@ -5473,7 +5473,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-14.png",
+              "src": "images/lessons/lesson-14/fig-14.webp",
               "caption": "របៀបដោះលេខសម្ងាត់លើ Sheet (Unprotect Sheet)"
             },
             {
@@ -5507,7 +5507,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-15.png",
+              "src": "images/lessons/lesson-14/fig-15.webp",
               "caption": "របៀបបង្កើត Sheet"
             },
             {
@@ -5532,7 +5532,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-16.png",
+              "src": "images/lessons/lesson-14/fig-16.webp",
               "caption": "របៀបលុប Sheet"
             },
             {
@@ -5548,7 +5548,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-17.png",
+              "src": "images/lessons/lesson-14/fig-17.webp",
               "caption": "របៀបប្តូរឈ្មោះ Sheet"
             },
             {
@@ -5619,7 +5619,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-18.png",
+              "src": "images/lessons/lesson-14/fig-18.webp",
               "caption": "ការកំណត់ទម្រង់ក្រដាស (Page Setup) រូបទី១"
             },
             {
@@ -5630,7 +5630,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-19.png",
+              "src": "images/lessons/lesson-14/fig-19.webp",
               "caption": "ការកំណត់ទម្រង់ក្រដាស (Page Setup) រូបទី២"
             },
             {
@@ -5653,7 +5653,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-20.png",
+              "src": "images/lessons/lesson-14/fig-20.webp",
               "caption": "ការកំណត់ទម្រង់ក្រដាស (Page Setup) រូបទី៣"
             },
             {
@@ -5673,7 +5673,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-21.png",
+              "src": "images/lessons/lesson-14/fig-21.webp",
               "caption": "ការកំណត់ទម្រង់ក្រដាស (Page Setup) រូបទី៤"
             }
           ]
@@ -5690,7 +5690,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-22.png",
+              "src": "images/lessons/lesson-14/fig-22.webp",
               "caption": "ការងារជាមួយ Header and Footer រូបទី១"
             },
             {
@@ -5701,7 +5701,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-23.png",
+              "src": "images/lessons/lesson-14/fig-23.webp",
               "caption": "ការងារជាមួយ Header and Footer រូបទី២"
             },
             {
@@ -5736,7 +5736,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-14/fig-24.png",
+              "src": "images/lessons/lesson-14/fig-24.webp",
               "caption": "របៀបចូលកំណត់ Options សំខាន់ៗមួយចំនួន"
             }
           ]
@@ -5769,7 +5769,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-01.png",
+              "src": "images/lessons/lesson-15/fig-01.webp",
               "caption": "ការបញ្ចូលទិន្នន័យទៅក្នុង Excel រូបទី១"
             },
             {
@@ -5782,7 +5782,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-02.png",
+              "src": "images/lessons/lesson-15/fig-02.webp",
               "caption": "ការបញ្ចូលទិន្នន័យទៅក្នុង Excel រូបទី២"
             }
           ]
@@ -5803,7 +5803,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-03.png",
+              "src": "images/lessons/lesson-15/fig-03.webp",
               "caption": "ការកំណត់ឈ្មោះ Cell (Define name) រូបទី១"
             },
             {
@@ -5814,7 +5814,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-04.png",
+              "src": "images/lessons/lesson-15/fig-04.webp",
               "caption": "ការកំណត់ឈ្មោះ Cell (Define name) រូបទី២"
             },
             {
@@ -5855,12 +5855,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-05.png",
+              "src": "images/lessons/lesson-15/fig-05.webp",
               "caption": "របៀបដាក់ Freeze Panes រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-06.png",
+              "src": "images/lessons/lesson-15/fig-06.webp",
               "caption": "របៀបដាក់ Freeze Panes រូបទី២"
             },
             {
@@ -5885,7 +5885,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-07.png",
+              "src": "images/lessons/lesson-15/fig-07.webp",
               "caption": "របៀបដោះ Freeze Panes"
             }
           ]
@@ -5921,7 +5921,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-08.png",
+              "src": "images/lessons/lesson-15/fig-08.webp",
               "caption": "ការ Select ជួរដេក (Row)"
             },
             {
@@ -5943,7 +5943,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-09.png",
+              "src": "images/lessons/lesson-15/fig-09.webp",
               "caption": "ការបន្ថែមជួរដេក (Rows)"
             },
             {
@@ -5961,7 +5961,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-10.png",
+              "src": "images/lessons/lesson-15/fig-10.webp",
               "caption": "ការលុបជួរដេក (Rows)"
             },
             {
@@ -5977,7 +5977,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-11.png",
+              "src": "images/lessons/lesson-15/fig-11.webp",
               "caption": "ការ Select ជួរឈរ (Column)"
             },
             {
@@ -5994,7 +5994,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-12.png",
+              "src": "images/lessons/lesson-15/fig-12.webp",
               "caption": "ការបន្ថែមជួរឈរ (Columns)"
             },
             {
@@ -6012,7 +6012,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-13.png",
+              "src": "images/lessons/lesson-15/fig-13.webp",
               "caption": "ការលុបជួរឈរ (Columns)"
             },
             {
@@ -6037,7 +6037,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-14.png",
+              "src": "images/lessons/lesson-15/fig-14.webp",
               "caption": "ការពង្រីក ឬបង្រួមជួរដេក (Row) និង ជួរឈរ (Column)"
             },
             {
@@ -6078,7 +6078,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-15.png",
+              "src": "images/lessons/lesson-15/fig-15.webp",
               "caption": "ការ Select Cell ទាំងមូល"
             }
           ]
@@ -6092,7 +6092,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-16.png",
+              "src": "images/lessons/lesson-15/fig-16.webp",
               "caption": "របៀបស្វែងរកទិន្នន័យ និងជំនួសទិន្នន័យ"
             },
             {
@@ -6109,7 +6109,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-17.png",
+              "src": "images/lessons/lesson-15/fig-17.webp",
               "caption": "ស្វែងរកទិន្នន័យ រូបទី១"
             },
             {
@@ -6121,7 +6121,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-18.png",
+              "src": "images/lessons/lesson-15/fig-18.webp",
               "caption": "ស្វែងរកទិន្នន័យ រូបទី២"
             },
             {
@@ -6144,7 +6144,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-19.png",
+              "src": "images/lessons/lesson-15/fig-19.webp",
               "caption": "ជំនួសទិន្នន័យ (Replace) រូបទី១"
             },
             {
@@ -6156,7 +6156,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-20.png",
+              "src": "images/lessons/lesson-15/fig-20.webp",
               "caption": "ជំនួសទិន្នន័យ (Replace) រូបទី២"
             },
             {
@@ -6179,7 +6179,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-21.png",
+              "src": "images/lessons/lesson-15/fig-21.webp",
               "caption": "ការប្រើប្រាស់ Go To"
             },
             {
@@ -6206,7 +6206,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-22.png",
+              "src": "images/lessons/lesson-15/fig-22.webp",
               "caption": "ស្វែងរកតាមរូបមន្ត (Formulas)"
             }
           ]
@@ -6254,7 +6254,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-01.png",
+              "src": "images/lessons/lesson-16/fig-01.webp",
               "caption": "សេចក្តីផ្តើមនៃមេរៀន រូបទី១"
             },
             {
@@ -6270,7 +6270,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-02.png",
+              "src": "images/lessons/lesson-16/fig-02.webp",
               "caption": "សេចក្តីផ្តើមនៃមេរៀន រូបទី២"
             },
             {
@@ -6293,7 +6293,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-03.png",
+              "src": "images/lessons/lesson-16/fig-03.webp",
               "caption": "ការកំណត់ទម្រង់នៃ Numbers រូបទី១"
             },
             {
@@ -6302,7 +6302,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-04.png",
+              "src": "images/lessons/lesson-16/fig-04.webp",
               "caption": "ការកំណត់ទម្រង់នៃ Numbers រូបទី២"
             },
             {
@@ -6354,7 +6354,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-05.png",
+              "src": "images/lessons/lesson-16/fig-05.webp",
               "caption": "ការកំណត់ទម្រង់ Date"
             },
             {
@@ -6377,7 +6377,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-06.png",
+              "src": "images/lessons/lesson-16/fig-06.webp",
               "caption": "ការកំណត់ទម្រង់ Time"
             },
             {
@@ -6432,7 +6432,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-07.png",
+              "src": "images/lessons/lesson-16/fig-07.webp",
               "caption": "ការកំណត់ទម្រង់ Special"
             },
             {
@@ -6458,7 +6458,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-08.png",
+              "src": "images/lessons/lesson-16/fig-08.webp",
               "caption": "ការកំណត់ទម្រង់ Custom Formats"
             },
             {
@@ -6499,7 +6499,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-09.png",
+              "src": "images/lessons/lesson-16/fig-09.webp",
               "caption": "ការកំណត់ Alignment"
             },
             {
@@ -6527,7 +6527,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-10.png",
+              "src": "images/lessons/lesson-16/fig-10.webp",
               "caption": "Quick Alignment"
             }
           ]
@@ -6552,7 +6552,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-11.png",
+              "src": "images/lessons/lesson-16/fig-11.webp",
               "caption": "ការផ្លាស់ប្តូរ Fonts and Colors"
             },
             {
@@ -6582,7 +6582,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-12.png",
+              "src": "images/lessons/lesson-16/fig-12.webp",
               "caption": "ការបង្កើត Borders"
             }
           ]
@@ -6615,7 +6615,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-13.png",
+              "src": "images/lessons/lesson-16/fig-13.webp",
               "caption": "ការដាក់ពណ៌ (Fill)"
             }
           ]
@@ -6640,7 +6640,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-14.png",
+              "src": "images/lessons/lesson-16/fig-14.webp",
               "caption": "របៀបការពារ Worksheet រូបទី១"
             },
             {
@@ -6651,7 +6651,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-15.png",
+              "src": "images/lessons/lesson-16/fig-15.webp",
               "caption": "របៀបការពារ Worksheet រូបទី២"
             },
             {
@@ -6664,7 +6664,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-16.png",
+              "src": "images/lessons/lesson-16/fig-16.webp",
               "caption": "របៀបការពារ Worksheet រូបទី៣"
             },
             {
@@ -6684,7 +6684,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-17.png",
+              "src": "images/lessons/lesson-16/fig-17.webp",
               "caption": "របៀបដោះលេខសម្ងាត់ រូបទី១"
             },
             {
@@ -6695,7 +6695,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-16/fig-18.png",
+              "src": "images/lessons/lesson-16/fig-18.webp",
               "caption": "របៀបដោះលេខសម្ងាត់ រូបទី២"
             },
             {
@@ -6734,7 +6734,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-01.jpg",
+              "src": "images/lessons/lesson-17/fig-01.webp",
               "caption": "ការប្រើប្រាស់ Data Sort តម្រៀបទិន្នន័យ រូបទី១"
             },
             {
@@ -6747,7 +6747,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-02.png",
+              "src": "images/lessons/lesson-17/fig-02.webp",
               "caption": "ការប្រើប្រាស់ Data Sort តម្រៀបទិន្នន័យ រូបទី២"
             },
             {
@@ -6784,7 +6784,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-03.png",
+              "src": "images/lessons/lesson-17/fig-03.webp",
               "caption": "ការត្រងទិន្នន័យ (Data Filter) រូបទី១"
             },
             {
@@ -6795,7 +6795,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-04.jpg",
+              "src": "images/lessons/lesson-17/fig-04.webp",
               "caption": "ការត្រងទិន្នន័យ (Data Filter) រូបទី២"
             },
             {
@@ -6817,7 +6817,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-05.png",
+              "src": "images/lessons/lesson-17/fig-05.webp",
               "caption": "ការត្រងទិន្នន័យ (Data Filter) រូបទី៣"
             },
             {
@@ -6834,7 +6834,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-06.png",
+              "src": "images/lessons/lesson-17/fig-06.webp",
               "caption": "ការត្រងទិន្នន័យ (Data Filter) រូបទី៤"
             }
           ]
@@ -6858,7 +6858,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-07.png",
+              "src": "images/lessons/lesson-17/fig-07.webp",
               "caption": "ការស្រង់ទិន្នន័យដោយបង្ហាញលទ្ធផលនៅក្នុង Sheet ដដែល រូបទី១"
             },
             {
@@ -6870,7 +6870,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-08.png",
+              "src": "images/lessons/lesson-17/fig-08.webp",
               "caption": "ការស្រង់ទិន្នន័យដោយបង្ហាញលទ្ធផលនៅក្នុង Sheet ដដែល រូបទី២"
             },
             {
@@ -6898,7 +6898,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-09.png",
+              "src": "images/lessons/lesson-17/fig-09.webp",
               "caption": "ការស្រង់ទិន្នន័យដោយបង្ហាញលទ្ធផលនៅក្នុង Sheet ផ្សេងទៀត រូបទី១"
             },
             {
@@ -6910,7 +6910,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-10.png",
+              "src": "images/lessons/lesson-17/fig-10.webp",
               "caption": "ការស្រង់ទិន្នន័យដោយបង្ហាញលទ្ធផលនៅក្នុង Sheet ផ្សេងទៀត រូបទី២"
             },
             {
@@ -6931,7 +6931,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-11.png",
+              "src": "images/lessons/lesson-17/fig-11.webp",
               "caption": "ការស្រង់ទិន្នន័យដោយបង្ហាញលទ្ធផលនៅក្នុង Sheet ផ្សេងទៀត រូបទី៣"
             }
           ]
@@ -6951,7 +6951,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-12.png",
+              "src": "images/lessons/lesson-17/fig-12.webp",
               "caption": "ការបូកសរុបទិន្នន័យច្រើនបញ្ចូលគ្នា (Data Consolidate) រូបទី១"
             },
             {
@@ -6963,12 +6963,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-13.png",
+              "src": "images/lessons/lesson-17/fig-13.webp",
               "caption": "ការបូកសរុបទិន្នន័យច្រើនបញ្ចូលគ្នា (Data Consolidate) រូបទី២"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-14.png",
+              "src": "images/lessons/lesson-17/fig-14.webp",
               "caption": "ការបូកសរុបទិន្នន័យច្រើនបញ្ចូលគ្នា (Data Consolidate) រូបទី៣"
             },
             {
@@ -6982,7 +6982,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-15.png",
+              "src": "images/lessons/lesson-17/fig-15.webp",
               "caption": "ការបូកសរុបទិន្នន័យច្រើនបញ្ចូលគ្នា (Data Consolidate) រូបទី៤"
             }
           ]
@@ -7004,7 +7004,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-16.png",
+              "src": "images/lessons/lesson-17/fig-16.webp",
               "caption": "ការប្រើប្រាស់ទិន្នន័យ Pivot Table រូបទី១"
             },
             {
@@ -7015,7 +7015,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-17.png",
+              "src": "images/lessons/lesson-17/fig-17.webp",
               "caption": "ការប្រើប្រាស់ទិន្នន័យ Pivot Table រូបទី២"
             },
             {
@@ -7035,7 +7035,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-18.png",
+              "src": "images/lessons/lesson-17/fig-18.webp",
               "caption": "ការប្រើប្រាស់ទិន្នន័យ Pivot Table រូបទី៣"
             },
             {
@@ -7046,7 +7046,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-19.png",
+              "src": "images/lessons/lesson-17/fig-19.webp",
               "caption": "ការប្រើប្រាស់ទិន្នន័យ Pivot Table រូបទី៤"
             },
             {
@@ -7086,7 +7086,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-20.png",
+              "src": "images/lessons/lesson-17/fig-20.webp",
               "caption": "ការសង់ក្រាហ្វិក (Charts in Excel) រូបទី១"
             },
             {
@@ -7098,7 +7098,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-21.png",
+              "src": "images/lessons/lesson-17/fig-21.webp",
               "caption": "ការសង់ក្រាហ្វិក (Charts in Excel) រូបទី២"
             },
             {
@@ -7127,7 +7127,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-22.png",
+              "src": "images/lessons/lesson-17/fig-22.webp",
               "caption": "ការប្រើប្រាស់ Chart Elements រូបទី១"
             },
             {
@@ -7144,7 +7144,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-23.png",
+              "src": "images/lessons/lesson-17/fig-23.webp",
               "caption": "ការប្រើប្រាស់ Chart Elements រូបទី២"
             },
             {
@@ -7163,7 +7163,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-24.png",
+              "src": "images/lessons/lesson-17/fig-24.webp",
               "caption": "ការប្រើប្រាស់ Chart Styles រូបទី១"
             },
             {
@@ -7180,7 +7180,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-25.png",
+              "src": "images/lessons/lesson-17/fig-25.webp",
               "caption": "ការប្រើប្រាស់ Chart Styles រូបទី២"
             },
             {
@@ -7199,7 +7199,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-26.png",
+              "src": "images/lessons/lesson-17/fig-26.webp",
               "caption": "ការប្រើប្រាស់ Chart Filters"
             },
             {
@@ -7220,7 +7220,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-17/fig-27.png",
+              "src": "images/lessons/lesson-17/fig-27.webp",
               "caption": "ការប្រើប្រាស់ Select Data"
             },
             {
@@ -7284,7 +7284,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-01.png",
+              "src": "images/lessons/lesson-18/fig-01.webp",
               "caption": "Conditional Formatting"
             },
             {
@@ -7307,7 +7307,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-02.png",
+              "src": "images/lessons/lesson-18/fig-02.webp",
               "caption": "Highlight Cells Rules រូបទី១"
             },
             {
@@ -7316,7 +7316,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-03.png",
+              "src": "images/lessons/lesson-18/fig-03.webp",
               "caption": "Highlight Cells Rules រូបទី២"
             },
             {
@@ -7327,7 +7327,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-04.jpg",
+              "src": "images/lessons/lesson-18/fig-04.webp",
               "caption": "Highlight Cells Rules រូបទី៣"
             },
             {
@@ -7350,7 +7350,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-05.png",
+              "src": "images/lessons/lesson-18/fig-05.webp",
               "caption": "Top / Bottom Rules រូបទី១"
             },
             {
@@ -7361,12 +7361,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-06.png",
+              "src": "images/lessons/lesson-18/fig-06.webp",
               "caption": "Top / Bottom Rules រូបទី២"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-07.png",
+              "src": "images/lessons/lesson-18/fig-07.webp",
               "caption": "Top / Bottom Rules រូបទី៣"
             },
             {
@@ -7389,12 +7389,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-08.png",
+              "src": "images/lessons/lesson-18/fig-08.webp",
               "caption": "Data Bars រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-09.jpg",
+              "src": "images/lessons/lesson-18/fig-09.webp",
               "caption": "Data Bars រូបទី២"
             },
             {
@@ -7417,12 +7417,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-10.png",
+              "src": "images/lessons/lesson-18/fig-10.webp",
               "caption": "Color Scales រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-11.png",
+              "src": "images/lessons/lesson-18/fig-11.webp",
               "caption": "Color Scales រូបទី២"
             },
             {
@@ -7445,12 +7445,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-12.png",
+              "src": "images/lessons/lesson-18/fig-12.webp",
               "caption": "Icon Sets រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-13.png",
+              "src": "images/lessons/lesson-18/fig-13.webp",
               "caption": "Icon Sets រូបទី២"
             }
           ]
@@ -7480,7 +7480,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-14.png",
+              "src": "images/lessons/lesson-18/fig-14.webp",
               "caption": "ការលុប Conditional Formatting (Clear Rules)"
             }
           ]
@@ -7506,7 +7506,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-15.png",
+              "src": "images/lessons/lesson-18/fig-15.webp",
               "caption": "របៀបបង្កើត Dropdown List រូបទី១"
             },
             {
@@ -7518,7 +7518,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-16.png",
+              "src": "images/lessons/lesson-18/fig-16.webp",
               "caption": "របៀបបង្កើត Dropdown List រូបទី២"
             },
             {
@@ -7529,7 +7529,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-17.png",
+              "src": "images/lessons/lesson-18/fig-17.webp",
               "caption": "របៀបបង្កើត Dropdown List រូបទី៣"
             },
             {
@@ -7551,7 +7551,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-18.png",
+              "src": "images/lessons/lesson-18/fig-18.webp",
               "caption": "របៀបដាក់ Input Message រូបទី១"
             },
             {
@@ -7562,7 +7562,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-19.png",
+              "src": "images/lessons/lesson-18/fig-19.webp",
               "caption": "របៀបដាក់ Input Message រូបទី២"
             },
             {
@@ -7585,7 +7585,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-20.png",
+              "src": "images/lessons/lesson-18/fig-20.webp",
               "caption": "របៀបដាក់ Error Alert រូបទី១"
             },
             {
@@ -7596,7 +7596,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-21.png",
+              "src": "images/lessons/lesson-18/fig-21.webp",
               "caption": "របៀបដាក់ Error Alert រូបទី២"
             },
             {
@@ -7617,7 +7617,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-15.png",
+              "src": "images/lessons/lesson-18/fig-15.webp",
               "caption": "ការគូសរង្វង់មូលលើទិន្នន័យមិនត្រឹមត្រូវ (Circle Invalid Data) រូបទី១"
             },
             {
@@ -7628,7 +7628,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-22.png",
+              "src": "images/lessons/lesson-18/fig-22.webp",
               "caption": "ការគូសរង្វង់មូលលើទិន្នន័យមិនត្រឹមត្រូវ (Circle Invalid Data) រូបទី២"
             },
             {
@@ -7642,7 +7642,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-23.png",
+              "src": "images/lessons/lesson-18/fig-23.webp",
               "caption": "ការគូសរង្វង់មូលលើទិន្នន័យមិនត្រឹមត្រូវ (Circle Invalid Data) រូបទី៣"
             },
             {
@@ -7659,7 +7659,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-24.png",
+              "src": "images/lessons/lesson-18/fig-24.webp",
               "caption": "ការលុបរង្វង់មូលលើទិន្នន័យមិនត្រឹមត្រូវ (Clear Validation Circles)"
             }
           ]
@@ -7681,12 +7681,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-25.png",
+              "src": "images/lessons/lesson-18/fig-25.webp",
               "caption": "Sub Totals រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-26.png",
+              "src": "images/lessons/lesson-18/fig-26.webp",
               "caption": "Sub Totals រូបទី២"
             },
             {
@@ -7709,7 +7709,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-18/fig-27.png",
+              "src": "images/lessons/lesson-18/fig-27.webp",
               "caption": "Sub Totals រូបទី៣"
             },
             {
@@ -7741,7 +7741,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-01.png",
+              "src": "images/lessons/lesson-19/fig-01.webp",
               "caption": "Workbook View រូបទី១"
             },
             {
@@ -7763,7 +7763,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-02.png",
+              "src": "images/lessons/lesson-19/fig-02.webp",
               "caption": "Workbook View រូបទី២"
             },
             {
@@ -7774,7 +7774,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-03.png",
+              "src": "images/lessons/lesson-19/fig-03.webp",
               "caption": "Workbook View រូបទី៣"
             },
             {
@@ -7788,7 +7788,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-04.png",
+              "src": "images/lessons/lesson-19/fig-04.webp",
               "caption": "Workbook View រូបទី៤"
             },
             {
@@ -7805,7 +7805,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-05.png",
+              "src": "images/lessons/lesson-19/fig-05.webp",
               "caption": "Show/Hide"
             },
             {
@@ -7824,7 +7824,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-06.png",
+              "src": "images/lessons/lesson-19/fig-06.webp",
               "caption": "Zoom"
             },
             {
@@ -7842,7 +7842,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-07.png",
+              "src": "images/lessons/lesson-19/fig-07.webp",
               "caption": "Windows រូបទី១"
             },
             {
@@ -7867,7 +7867,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-19/fig-08.jpg",
+              "src": "images/lessons/lesson-19/fig-08.webp",
               "caption": "Windows រូបទី២"
             }
           ]
@@ -7914,7 +7914,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-01.jpg",
+              "src": "images/lessons/lesson-20/fig-01.webp",
               "caption": "ផ្នែកនៃរូបមន្ត"
             },
             {
@@ -7988,7 +7988,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-02.png",
+              "src": "images/lessons/lesson-20/fig-02.webp",
               "caption": "ការស្វែងយល់ពីប្រភេទនៃ Operators រូបទី១"
             },
             {
@@ -7999,7 +7999,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-03.png",
+              "src": "images/lessons/lesson-20/fig-03.webp",
               "caption": "ការស្វែងយល់ពីប្រភេទនៃ Operators រូបទី២"
             },
             {
@@ -8010,7 +8010,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-04.png",
+              "src": "images/lessons/lesson-20/fig-04.webp",
               "caption": "ការស្វែងយល់ពីប្រភេទនៃ Operators រូបទី៣"
             }
           ]
@@ -8020,7 +8020,7 @@ window.COURSE_DATA = {
           "items": [
             {
               "type": "image",
-              "src": "images/lessons/lesson-15/fig-22.png",
+              "src": "images/lessons/lesson-15/fig-22.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី១"
             },
             {
@@ -8035,7 +8035,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-05.png",
+              "src": "images/lessons/lesson-20/fig-05.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី២"
             },
             {
@@ -8046,7 +8046,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-06.png",
+              "src": "images/lessons/lesson-20/fig-06.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៣"
             },
             {
@@ -8057,7 +8057,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-07.png",
+              "src": "images/lessons/lesson-20/fig-07.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៤"
             },
             {
@@ -8068,7 +8068,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-08.png",
+              "src": "images/lessons/lesson-20/fig-08.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៥"
             },
             {
@@ -8079,7 +8079,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-09.png",
+              "src": "images/lessons/lesson-20/fig-09.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៦"
             },
             {
@@ -8090,7 +8090,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-10.png",
+              "src": "images/lessons/lesson-20/fig-10.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៧"
             },
             {
@@ -8101,7 +8101,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-11.png",
+              "src": "images/lessons/lesson-20/fig-11.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៨"
             },
             {
@@ -8112,7 +8112,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-12.png",
+              "src": "images/lessons/lesson-20/fig-12.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី៩"
             },
             {
@@ -8123,7 +8123,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-13.png",
+              "src": "images/lessons/lesson-20/fig-13.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី១០"
             },
             {
@@ -8134,7 +8134,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-14.png",
+              "src": "images/lessons/lesson-20/fig-14.webp",
               "caption": "ការស្វែងយល់អំពី Function Library រូបទី១១"
             }
           ]
@@ -8154,7 +8154,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-15.jpg",
+              "src": "images/lessons/lesson-20/fig-15.webp",
               "caption": "ការប្រើប្រាស់ Formulas ជាមួយ Dates & Text រូបទី១"
             },
             {
@@ -8178,7 +8178,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-16.png",
+              "src": "images/lessons/lesson-20/fig-16.webp",
               "caption": "ការប្រើប្រាស់ Formulas ជាមួយ Dates & Text រូបទី២"
             },
             {
@@ -8213,7 +8213,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-17.png",
+              "src": "images/lessons/lesson-20/fig-17.webp",
               "caption": "គណនាផលបូក"
             },
             {
@@ -8230,7 +8230,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-18.png",
+              "src": "images/lessons/lesson-20/fig-18.webp",
               "caption": "គណនាផលដក"
             },
             {
@@ -8247,7 +8247,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-19.png",
+              "src": "images/lessons/lesson-20/fig-19.webp",
               "caption": "គណនាផលគុណ"
             },
             {
@@ -8264,7 +8264,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-20/fig-20.png",
+              "src": "images/lessons/lesson-20/fig-20.webp",
               "caption": "គណនាផលចែក"
             }
           ]
@@ -8322,12 +8322,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-01.png",
+              "src": "images/lessons/lesson-21/fig-01.webp",
               "caption": "អនុគមន៍ផលបូក (SUM) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-02.png",
+              "src": "images/lessons/lesson-21/fig-02.webp",
               "caption": "អនុគមន៍ផលបូក (SUM) រូបទី២"
             }
           ]
@@ -8357,12 +8357,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-03.png",
+              "src": "images/lessons/lesson-21/fig-03.webp",
               "caption": "អនុគមន៍ផលគុណ (PRODUCT) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-04.png",
+              "src": "images/lessons/lesson-21/fig-04.webp",
               "caption": "អនុគមន៍ផលគុណ (PRODUCT) រូបទី២"
             }
           ]
@@ -8392,12 +8392,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-05.png",
+              "src": "images/lessons/lesson-21/fig-05.webp",
               "caption": "អនុគមន៍ ABS (Absolute) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-06.png",
+              "src": "images/lessons/lesson-21/fig-06.webp",
               "caption": "អនុគមន៍ ABS (Absolute) រូបទី២"
             }
           ]
@@ -8427,7 +8427,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-07.png",
+              "src": "images/lessons/lesson-21/fig-07.webp",
               "caption": "អនុគមន៍ FACT"
             }
           ]
@@ -8453,7 +8453,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-08.png",
+              "src": "images/lessons/lesson-21/fig-08.webp",
               "caption": "អនុគមន៍ INT"
             }
           ]
@@ -8487,12 +8487,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-09.png",
+              "src": "images/lessons/lesson-21/fig-09.webp",
               "caption": "អនុគមន៍ POWER រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-10.png",
+              "src": "images/lessons/lesson-21/fig-10.webp",
               "caption": "អនុគមន៍ POWER រូបទី២"
             }
           ]
@@ -8525,7 +8525,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-11.png",
+              "src": "images/lessons/lesson-21/fig-11.webp",
               "caption": "អនុគមន៍ ROUNDDOWN"
             }
           ]
@@ -8558,7 +8558,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-12.png",
+              "src": "images/lessons/lesson-21/fig-12.webp",
               "caption": "អនុគមន៍ ROUNDUP"
             }
           ]
@@ -8588,12 +8588,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-13.png",
+              "src": "images/lessons/lesson-21/fig-13.webp",
               "caption": "អនុគមន៍ឫសការ៉េ (Square Root) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-14.png",
+              "src": "images/lessons/lesson-21/fig-14.webp",
               "caption": "អនុគមន៍ឫសការ៉េ (Square Root) រូបទី២"
             }
           ]
@@ -8623,12 +8623,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-15.png",
+              "src": "images/lessons/lesson-21/fig-15.webp",
               "caption": "អនុគមន៍មធ្យមភាគ (AVERAGE) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-16.png",
+              "src": "images/lessons/lesson-21/fig-16.webp",
               "caption": "អនុគមន៍មធ្យមភាគ (AVERAGE) រូបទី២"
             }
           ]
@@ -8669,12 +8669,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-17.png",
+              "src": "images/lessons/lesson-21/fig-17.webp",
               "caption": "អនុគមន៍ចំណាត់ថ្នាក់ (RANK) រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-18.png",
+              "src": "images/lessons/lesson-21/fig-18.webp",
               "caption": "អនុគមន៍ចំណាត់ថ្នាក់ (RANK) រូបទី២"
             }
           ]
@@ -8704,12 +8704,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-19.png",
+              "src": "images/lessons/lesson-21/fig-19.webp",
               "caption": "អនុគមន៍ COUNT រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-20.png",
+              "src": "images/lessons/lesson-21/fig-20.webp",
               "caption": "អនុគមន៍ COUNT រូបទី២"
             }
           ]
@@ -8739,12 +8739,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-21.png",
+              "src": "images/lessons/lesson-21/fig-21.webp",
               "caption": "អនុគមន៍ COUNTA រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-22.png",
+              "src": "images/lessons/lesson-21/fig-22.webp",
               "caption": "អនុគមន៍ COUNTA រូបទី២"
             }
           ]
@@ -8774,12 +8774,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-23.png",
+              "src": "images/lessons/lesson-21/fig-23.webp",
               "caption": "អនុគមន៍ COUNTBLANK រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-24.png",
+              "src": "images/lessons/lesson-21/fig-24.webp",
               "caption": "អនុគមន៍ COUNTBLANK រូបទី២"
             }
           ]
@@ -8812,12 +8812,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-25.png",
+              "src": "images/lessons/lesson-21/fig-25.webp",
               "caption": "អនុគមន៍ COUNTIF រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-26.png",
+              "src": "images/lessons/lesson-21/fig-26.webp",
               "caption": "អនុគមន៍ COUNTIF រូបទី២"
             }
           ]
@@ -8850,12 +8850,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-27.png",
+              "src": "images/lessons/lesson-21/fig-27.webp",
               "caption": "អនុគមន៍ COUNTIFS រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-28.png",
+              "src": "images/lessons/lesson-21/fig-28.webp",
               "caption": "អនុគមន៍ COUNTIFS រូបទី២"
             }
           ]
@@ -8885,7 +8885,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-29.png",
+              "src": "images/lessons/lesson-21/fig-29.webp",
               "caption": "អនុគមន៍តម្លៃអតិបរមា (MAX)"
             }
           ]
@@ -8915,7 +8915,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-30.png",
+              "src": "images/lessons/lesson-21/fig-30.webp",
               "caption": "អនុគមន៍តម្លៃអប្បបរមា (MIN)"
             }
           ]
@@ -8949,12 +8949,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-31.png",
+              "src": "images/lessons/lesson-21/fig-31.webp",
               "caption": "អនុគមន៍ SUMIF រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-32.png",
+              "src": "images/lessons/lesson-21/fig-32.webp",
               "caption": "អនុគមន៍ SUMIF រូបទី២"
             }
           ]
@@ -8992,12 +8992,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-33.png",
+              "src": "images/lessons/lesson-21/fig-33.webp",
               "caption": "អនុគមន៍ DATE រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-34.png",
+              "src": "images/lessons/lesson-21/fig-34.webp",
               "caption": "អនុគមន៍ DATE រូបទី២"
             }
           ]
@@ -9046,7 +9046,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-35.png",
+              "src": "images/lessons/lesson-21/fig-35.webp",
               "caption": "អនុគមន៍ DATEDIF"
             }
           ]
@@ -9079,7 +9079,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-36.png",
+              "src": "images/lessons/lesson-21/fig-36.webp",
               "caption": "អនុគមន៍ DAYS360"
             }
           ]
@@ -9109,7 +9109,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-37.png",
+              "src": "images/lessons/lesson-21/fig-37.webp",
               "caption": "អនុគមន៍ម៉ោង (HOUR)"
             }
           ]
@@ -9139,7 +9139,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-38.png",
+              "src": "images/lessons/lesson-21/fig-38.webp",
               "caption": "អនុគមន៍នាទី (MINUTE)"
             }
           ]
@@ -9173,12 +9173,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-39.png",
+              "src": "images/lessons/lesson-21/fig-39.webp",
               "caption": "អនុគមន៍ NETWORKDAYS រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-40.png",
+              "src": "images/lessons/lesson-21/fig-40.webp",
               "caption": "អនុគមន៍ NETWORKDAYS រូបទី២"
             }
           ]
@@ -9208,7 +9208,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-41.png",
+              "src": "images/lessons/lesson-21/fig-41.webp",
               "caption": "អនុគមន៍វិនាទី (SECOND)"
             }
           ]
@@ -9242,12 +9242,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-42.png",
+              "src": "images/lessons/lesson-21/fig-42.webp",
               "caption": "អនុគមន៍ IF រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-43.png",
+              "src": "images/lessons/lesson-21/fig-43.webp",
               "caption": "អនុគមន៍ IF រូបទី២"
             }
           ]
@@ -9277,7 +9277,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-44.png",
+              "src": "images/lessons/lesson-21/fig-44.webp",
               "caption": "អនុគមន៍ AND"
             }
           ]
@@ -9307,7 +9307,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-45.png",
+              "src": "images/lessons/lesson-21/fig-45.webp",
               "caption": "អនុគមន៍ OR"
             }
           ]
@@ -9337,7 +9337,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-46.png",
+              "src": "images/lessons/lesson-21/fig-46.webp",
               "caption": "អនុគមន៍ CONCATENATE"
             }
           ]
@@ -9379,7 +9379,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-47.png",
+              "src": "images/lessons/lesson-21/fig-47.webp",
               "caption": "អនុគមន៍ VLOOKUP (Vertical LOOKUP)"
             }
           ]
@@ -9419,7 +9419,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-48.png",
+              "src": "images/lessons/lesson-21/fig-48.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង AVERAGE"
             }
           ]
@@ -9452,7 +9452,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-49.png",
+              "src": "images/lessons/lesson-21/fig-49.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង DAYS360"
             }
           ]
@@ -9495,7 +9495,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-50.png",
+              "src": "images/lessons/lesson-21/fig-50.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង AND រូបទី១"
             },
             {
@@ -9528,7 +9528,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-51.png",
+              "src": "images/lessons/lesson-21/fig-51.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង AND រូបទី២"
             },
             {
@@ -9579,7 +9579,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-52.png",
+              "src": "images/lessons/lesson-21/fig-52.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF, AND និង DAYS360"
             },
             {
@@ -9630,7 +9630,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-53.png",
+              "src": "images/lessons/lesson-21/fig-53.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង OR"
             },
             {
@@ -9682,7 +9682,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-54.png",
+              "src": "images/lessons/lesson-21/fig-54.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF, AND និង OR"
             },
             {
@@ -9721,7 +9721,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-55.png",
+              "src": "images/lessons/lesson-21/fig-55.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF និង VLOOKUP"
             },
             {
@@ -9761,7 +9761,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-21/fig-56.png",
+              "src": "images/lessons/lesson-21/fig-56.webp",
               "caption": "ការផ្គុំអនុគមន៍ IF, AND និង VLOOKUP"
             }
           ]
@@ -9800,7 +9800,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-22/fig-01.png",
+              "src": "images/lessons/lesson-22/fig-01.webp",
               "caption": "ខ្លឹមសារមេរៀន"
             },
             {
@@ -9868,7 +9868,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-23/fig-01.png",
+              "src": "images/lessons/lesson-23/fig-01.webp",
               "caption": "តើមានអ្វីថ្មីនៅក្នុងកម្មវិធី PowerPoint 2021"
             }
           ]
@@ -9911,7 +9911,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-23/fig-02.jpg",
+              "src": "images/lessons/lesson-23/fig-02.webp",
               "caption": "របៀបបើកកម្មវិធី PowerPoint 2021"
             }
           ]
@@ -9965,7 +9965,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-01.jpg",
+              "src": "images/lessons/lesson-24/fig-01.webp",
               "caption": "របៀបបង្កើត Blank Presentation"
             }
           ]
@@ -9993,7 +9993,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-02.jpg",
+              "src": "images/lessons/lesson-24/fig-02.webp",
               "caption": "របៀបបង្កើត Presentation ពី Template"
             }
           ]
@@ -10028,7 +10028,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-03.png",
+              "src": "images/lessons/lesson-24/fig-03.webp",
               "caption": "របៀប Save ឯកសារ PowerPoint 2021 រូបទី១"
             },
             {
@@ -10037,7 +10037,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-04.png",
+              "src": "images/lessons/lesson-24/fig-04.webp",
               "caption": "របៀប Save ឯកសារ PowerPoint 2021 រូបទី២"
             }
           ]
@@ -10064,7 +10064,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-05.png",
+              "src": "images/lessons/lesson-24/fig-05.webp",
               "caption": "របៀប Open ឯកសារ"
             }
           ]
@@ -10089,7 +10089,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-06.jpg",
+              "src": "images/lessons/lesson-24/fig-06.webp",
               "caption": "របៀបជ្រើសរើសយក Themes ថ្មី"
             },
             {
@@ -10106,7 +10106,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-07.jpg",
+              "src": "images/lessons/lesson-24/fig-07.webp",
               "caption": "របៀបប្តូរពណ៌ Themes"
             },
             {
@@ -10122,7 +10122,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-08.jpg",
+              "src": "images/lessons/lesson-24/fig-08.webp",
               "caption": "របៀបប្តូរ Themes មកទម្រង់ដើមវិញ"
             }
           ]
@@ -10148,7 +10148,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-09.jpg",
+              "src": "images/lessons/lesson-24/fig-09.webp",
               "caption": "របៀបប្តូរពណ៌ Slide Background"
             },
             {
@@ -10184,12 +10184,12 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-10.png",
+              "src": "images/lessons/lesson-24/fig-10.webp",
               "caption": "របៀបប្តូរ Slide Background ជារូបភាព រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-24/fig-11.jpg",
+              "src": "images/lessons/lesson-24/fig-11.webp",
               "caption": "របៀបប្តូរ Slide Background ជារូបភាព រូបទី២"
             }
           ]
@@ -10239,7 +10239,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-25/fig-01.jpg",
+              "src": "images/lessons/lesson-25/fig-01.webp",
               "caption": "របៀបមើលទ្រង់ទ្រាយ Slide ប្រភេទ Normal View"
             },
             {
@@ -10263,7 +10263,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-25/fig-02.jpg",
+              "src": "images/lessons/lesson-25/fig-02.webp",
               "caption": "របៀបមើលទ្រង់ទ្រាយ Slide ប្រភេទ Slide Sorter View"
             },
             {
@@ -10287,7 +10287,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-25/fig-03.jpg",
+              "src": "images/lessons/lesson-25/fig-03.webp",
               "caption": "របៀបមើលទ្រង់ទ្រាយ Slide ប្រភេទ Notes Page View"
             },
             {
@@ -10311,7 +10311,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-25/fig-04.jpg",
+              "src": "images/lessons/lesson-25/fig-04.webp",
               "caption": "របៀបមើលទ្រង់ទ្រាយ Slide ប្រភេទ Slide Show"
             }
           ]
@@ -10325,7 +10325,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-25/fig-05.jpg",
+              "src": "images/lessons/lesson-25/fig-05.webp",
               "caption": "ការបង្ហោះ Slide"
             },
             {
@@ -10399,7 +10399,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-01.png",
+              "src": "images/lessons/lesson-26/fig-01.webp",
               "caption": "របៀបបញ្ចូលអក្សរក្នុង Slide"
             }
           ]
@@ -10425,7 +10425,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-02.png",
+              "src": "images/lessons/lesson-26/fig-02.webp",
               "caption": "របៀបបង្កើត Textbox"
             }
           ]
@@ -10452,7 +10452,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-03.jpg",
+              "src": "images/lessons/lesson-26/fig-03.webp",
               "caption": "របៀបកែពាក្យវិធីសាស្រ្តទី១ រូបទី១"
             },
             {
@@ -10474,7 +10474,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-04.png",
+              "src": "images/lessons/lesson-26/fig-04.webp",
               "caption": "របៀបកែពាក្យវិធីសាស្រ្តទី១ រូបទី២"
             }
           ]
@@ -10501,7 +10501,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-05.jpg",
+              "src": "images/lessons/lesson-26/fig-05.webp",
               "caption": "របៀបប្តូរប្រភេទ Font"
             },
             {
@@ -10519,7 +10519,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-06.png",
+              "src": "images/lessons/lesson-26/fig-06.webp",
               "caption": "របៀបប្តូរទំហំ Font"
             }
           ]
@@ -10546,7 +10546,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-26/fig-07.jpg",
+              "src": "images/lessons/lesson-26/fig-07.webp",
               "caption": "របៀបប្តូរពណ៌អក្សរ"
             }
           ]
@@ -10599,7 +10599,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-01.png",
+              "src": "images/lessons/lesson-27/fig-01.webp",
               "caption": "របៀបតម្រង់ទីតាំងអក្សរ"
             }
           ]
@@ -10626,7 +10626,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-02.jpg",
+              "src": "images/lessons/lesson-27/fig-02.webp",
               "caption": "របៀបប្តូរ Line Spacing រូបទី១"
             },
             {
@@ -10643,7 +10643,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-03.png",
+              "src": "images/lessons/lesson-27/fig-03.webp",
               "caption": "របៀបប្តូរ Line Spacing រូបទី២"
             },
             {
@@ -10656,7 +10656,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-04.jpg",
+              "src": "images/lessons/lesson-27/fig-04.webp",
               "caption": "របៀបប្តូរ Line Spacing រូបទី៣"
             },
             {
@@ -10715,7 +10715,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-05.png",
+              "src": "images/lessons/lesson-27/fig-05.webp",
               "caption": "របៀបកំណត់ Indentation រូបទី១"
             },
             {
@@ -10729,7 +10729,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-06.jpg",
+              "src": "images/lessons/lesson-27/fig-06.webp",
               "caption": "របៀបកំណត់ Indentation រូបទី២"
             },
             {
@@ -10790,7 +10790,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-07.jpg",
+              "src": "images/lessons/lesson-27/fig-07.webp",
               "caption": "របៀបជ្រើសរើស Bullets"
             },
             {
@@ -10808,7 +10808,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-08.jpg",
+              "src": "images/lessons/lesson-27/fig-08.webp",
               "caption": "របៀបជ្រើសរើស Numbering"
             },
             {
@@ -10863,22 +10863,22 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-09.png",
+              "src": "images/lessons/lesson-27/fig-09.webp",
               "caption": "ការប្តូរ Text Direction រូបទី១"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-10.png",
+              "src": "images/lessons/lesson-27/fig-10.webp",
               "caption": "ការប្តូរ Text Direction រូបទី២"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-11.png",
+              "src": "images/lessons/lesson-27/fig-11.webp",
               "caption": "ការប្តូរ Text Direction រូបទី៣"
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-12.png",
+              "src": "images/lessons/lesson-27/fig-12.webp",
               "caption": "ការប្តូរ Text Direction រូបទី៤"
             },
             {
@@ -10895,7 +10895,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-27/fig-13.jpg",
+              "src": "images/lessons/lesson-27/fig-13.webp",
               "caption": "របៀបប្តូរ Text Direction"
             }
           ]
@@ -10939,7 +10939,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-01.jpg",
+              "src": "images/lessons/lesson-28/fig-01.webp",
               "caption": "របៀបដាក់រូបភាពក្នុង Slide"
             }
           ]
@@ -10979,7 +10979,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-02.jpg",
+              "src": "images/lessons/lesson-28/fig-02.webp",
               "caption": "របៀបបញ្ចូលអក្សរ WordArt"
             },
             {
@@ -10996,7 +10996,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-03.png",
+              "src": "images/lessons/lesson-28/fig-03.webp",
               "caption": "របៀបប្តូរម៉ូដអក្សរ WordArt"
             }
           ]
@@ -11023,7 +11023,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-04.jpg",
+              "src": "images/lessons/lesson-28/fig-04.webp",
               "caption": "របៀបបញ្ចូល Shapes"
             },
             {
@@ -11041,7 +11041,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-05.jpg",
+              "src": "images/lessons/lesson-28/fig-05.webp",
               "caption": "របៀបប្តូរម៉ូដនៃ Shapes"
             },
             {
@@ -11062,7 +11062,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-06.png",
+              "src": "images/lessons/lesson-28/fig-06.webp",
               "caption": "របៀបដាក់ពណ៌ផ្ទៃឱ្យ Shapes"
             },
             {
@@ -11085,7 +11085,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-07.png",
+              "src": "images/lessons/lesson-28/fig-07.webp",
               "caption": "របៀបដាក់ពណ៌ និងទំហំបន្ទាត់ឱ្យ Shapes"
             },
             {
@@ -11102,7 +11102,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-28/fig-08.jpg",
+              "src": "images/lessons/lesson-28/fig-08.webp",
               "caption": "របៀបបញ្ចូលអក្សរក្នុង Shapes"
             },
             {
@@ -11155,7 +11155,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-29/fig-01.jpg",
+              "src": "images/lessons/lesson-29/fig-01.webp",
               "caption": "របៀបបង្កើតចលនាឱ្យ Slide"
             },
             {
@@ -11172,7 +11172,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-29/fig-02.jpg",
+              "src": "images/lessons/lesson-29/fig-02.webp",
               "caption": "របៀបលុបចលនាឱ្យ Slide"
             }
           ]
@@ -11211,7 +11211,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-29/fig-03.jpg",
+              "src": "images/lessons/lesson-29/fig-03.webp",
               "caption": "របៀបបង្កើតចលនាឱ្យអក្សរ ឬ រូបភាព"
             }
           ]
@@ -11253,7 +11253,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-30/fig-01.jpg",
+              "src": "images/lessons/lesson-30/fig-01.webp",
               "caption": "របៀបពិនិត្យមើលឯកសារមុនពេលបោះពុម្ព រូបទី១"
             },
             {
@@ -11268,7 +11268,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-30/fig-02.jpg",
+              "src": "images/lessons/lesson-30/fig-02.webp",
               "caption": "របៀបពិនិត្យមើលឯកសារមុនពេលបោះពុម្ព រូបទី២"
             },
             {
@@ -11280,7 +11280,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-30/fig-03.png",
+              "src": "images/lessons/lesson-30/fig-03.webp",
               "caption": "របៀបពិនិត្យមើលឯកសារមុនពេលបោះពុម្ព រូបទី៣"
             }
           ]
@@ -11296,7 +11296,7 @@ window.COURSE_DATA = {
             },
             {
               "type": "image",
-              "src": "images/lessons/lesson-30/fig-04.png",
+              "src": "images/lessons/lesson-30/fig-04.webp",
               "caption": "អ្នកអាចកំណត់ការបោះពុម្ពឯកសារបន្ថែម"
             },
             {

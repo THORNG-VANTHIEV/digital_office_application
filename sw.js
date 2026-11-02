@@ -10,7 +10,7 @@
  * Bump CACHE_VERSION after changing the shell file list OR replacing lesson images
  * (images are cache-first, so students would otherwise keep seeing old screenshots).
  */
-const CACHE_VERSION = 'v2'; // v2: lessons rebuilt from the Word book (new screenshots)
+const CACHE_VERSION = 'v3'; // v3: all page images converted to WebP
 const SHELL_CACHE = `office2021-shell-${CACHE_VERSION}`;
 const IMAGE_CACHE = `office2021-images-${CACHE_VERSION}`;
 const FONT_CACHE = `office2021-fonts-${CACHE_VERSION}`;
@@ -22,8 +22,9 @@ const SHELL_FILES = [
   'js/course-data.js',
   'js/app.js',
   'manifest.json',
+  'images/logo.webp',
   'images/logo.png',
-  'images/cover.jpg',
+  'images/cover.webp',
   'images/icons/icon-192.png',
   'images/icons/icon-512.png'
 ];

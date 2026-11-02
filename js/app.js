@@ -428,7 +428,7 @@
         let html = `
       <div class="sidebar-mobile-header">
         <div class="sidebar-mobile-title">
-          <img src="images/logo.png" alt="Logo" style="width:24px; height:24px; object-fit:contain;">
+          <img src="images/logo.webp" alt="Logo" style="width:24px; height:24px; object-fit:contain;">
           <span>មាតិកាមេរៀន (${kh(data.lessons.length)} មេរៀន)</span>
         </div>
         <button class="sidebar-mobile-close-btn" id="sidebarMobileCloseBtn" aria-label="បិទមាតិកា">

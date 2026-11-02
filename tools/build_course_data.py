@@ -10,18 +10,24 @@ tables, formulas and screenshots. Site-only settings that the book doesn't conta
 (lesson icons, chapter ids, logo/cover paths, institution names) are kept from the
 current js/course-data.js.
 
-Requires macOS `sips` for image resizing/conversion (falls back to copying as-is).
+Screenshots are written as WebP (smaller = faster pages). Requires Pillow with WebP
+support:  python3 -m pip install Pillow
 """
+import io
 import json
 import os
 import re
 import shutil
-import struct
-import subprocess
 import sys
-import tempfile
 import zipfile
 import xml.etree.ElementTree as ET
+
+try:
+    from PIL import Image, features
+    if not features.check('webp'):
+        raise ImportError('Pillow was built without WebP support')
+except ImportError as e:
+    sys.exit(f'Pillow with WebP support is required ({e}). Install it with: python3 -m pip install Pillow')
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 R = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
@@ -158,13 +164,27 @@ class Docx:
 
 
 # --------------------------------------------------------------------------- images
-def png_info(data):
-    if data[:8] != b'\x89PNG\r\n\x1a\n':
-        return None
-    w, h = struct.unpack('>II', data[16:24])
-    color_type = data[25]
-    has_alpha = color_type in (4, 6) or b'tRNS' in data[:4096]
-    return w, h, has_alpha
+WEBP_QUALITY = 82          # lossy quality for photos/screenshots (text stays sharp at 82)
+
+
+def to_webp(data, max_width=MAX_IMG_WIDTH):
+    """Encode image bytes as WebP. Tries lossy and lossless and keeps the smaller one:
+    lossy wins for big screenshots, lossless for small icons/diagrams. Transparency is kept."""
+    img = Image.open(io.BytesIO(data))
+    img.load()
+    has_alpha = img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info)
+    img = img.convert('RGBA' if has_alpha else 'RGB')
+    if img.width > max_width:
+        img = img.resize((max_width, round(img.height * max_width / img.width)), Image.LANCZOS)
+    lossy = io.BytesIO()
+    img.save(lossy, 'WEBP', quality=WEBP_QUALITY, method=6, alpha_quality=90)
+    candidates = [lossy.getvalue()]
+    # Lossless only pays off for small, flat images; on big screenshots it is slow and larger.
+    if img.width * img.height <= 400_000:
+        lossless = io.BytesIO()
+        img.save(lossless, 'WEBP', lossless=True, quality=80, method=4)
+        candidates.append(lossless.getvalue())
+    return min(candidates, key=len)
 
 
 class ImageWriter:
@@ -172,8 +192,6 @@ class ImageWriter:
         self.docx = docx
         self.done = {}          # media target -> relative path
         self.counters = {}
-        self.tmp = tempfile.mkdtemp()
-        self.has_sips = shutil.which('sips') is not None
         self.bytes_in = self.bytes_out = 0
 
     def write(self, target, lesson_id):
@@ -182,30 +200,11 @@ class ImageWriter:
         data = self.docx.media(target)
         self.bytes_in += len(data)
         self.counters[lesson_id] = self.counters.get(lesson_id, 0) + 1
-        stem = f'fig-{self.counters[lesson_id]:02d}'
-        folder = os.path.join(IMG_DIR, lesson_id)
-        os.makedirs(folder, exist_ok=True)
-        info = png_info(data)
-        src = os.path.join(self.tmp, 'in.png')
-        open(src, 'wb').write(data)
-        out_png = os.path.join(self.tmp, 'out.png')
-        shutil.copy(src, out_png)
-        if self.has_sips and info and info[0] > MAX_IMG_WIDTH:
-            subprocess.run(['sips', '--resampleWidth', str(MAX_IMG_WIDTH), out_png], capture_output=True)
-        best_path, ext = out_png, 'png'
-        if self.has_sips and info and not info[2]:
-            out_jpg = os.path.join(self.tmp, 'out.jpg')
-            subprocess.run(['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '82', out_png, '--out', out_jpg],
-                           capture_output=True)
-            if os.path.exists(out_jpg) and os.path.getsize(out_jpg) < os.path.getsize(out_png) * 0.8:
-                best_path, ext = out_jpg, 'jpg'
-        rel = f'images/lessons/{lesson_id}/{stem}.{ext}'
-        shutil.copy(best_path, os.path.join(ROOT, rel))
-        self.bytes_out += os.path.getsize(os.path.join(ROOT, rel))
-        for f in ('out.png', 'out.jpg'):
-            p = os.path.join(self.tmp, f)
-            if os.path.exists(p):
-                os.remove(p)
+        rel = f'images/lessons/{lesson_id}/fig-{self.counters[lesson_id]:02d}.webp'
+        os.makedirs(os.path.join(IMG_DIR, lesson_id), exist_ok=True)
+        webp = to_webp(data)
+        open(os.path.join(ROOT, rel), 'wb').write(webp)
+        self.bytes_out += len(webp)
         self.done[target] = rel
         return rel
 
@@ -526,6 +525,9 @@ def main(docx_path):
                              lessons=[l['id'] for l in lessons if l['chapterId'] == c['id']]))
 
     meta = dict(old['meta'])
+    # page images use WebP; images/logo.png stays only for the favicon / app icons
+    meta['logoImage'] = 'images/logo.webp'
+    meta['coverImage'] = 'images/cover.webp'
     meta['totalLessons'] = len(lessons)
     meta['totalChapters'] = len(chapters)
     if ref_page:

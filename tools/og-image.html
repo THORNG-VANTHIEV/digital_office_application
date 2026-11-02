@@ -1,0 +1,72 @@
+<!doctype html>
+<!--
+  Template for the link-preview image (images/og-image.jpg) shown when the site link is
+  shared on Telegram, Facebook, Messenger, etc.
+
+  To regenerate after editing this file (from the project root):
+    python3 -m http.server 8765 --bind 127.0.0.1 &
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+      --window-size=1200,630 --virtual-time-budget=5000 \
+      --screenshot=images/og-image.png "http://127.0.0.1:8765/tools/og-image.html"
+  then convert it to JPEG (images/og-image.jpg) — link previews don't all accept WebP.
+-->
+<html lang="km">
+<head>
+<meta charset="utf-8">
+<title>Share image</title>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;600;700&family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: 'Work Sans', 'Kantumruy Pro', sans-serif;
+    color: #f8fafc;
+    background:
+      radial-gradient(circle at 88% 18%, rgba(59,130,246,.35), transparent 42%),
+      radial-gradient(circle at 10% 100%, rgba(16,185,129,.18), transparent 40%),
+      linear-gradient(135deg, #0b1220 0%, #10224d 55%, #1e3a8a 100%);
+    display: flex; align-items: center;
+    padding: 0 72px; box-sizing: border-box; gap: 56px;
+  }
+  .text { flex: 1; min-width: 0; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 8px 18px; border-radius: 999px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
+    font: 600 22px 'Kantumruy Pro', sans-serif; color: #bfdbfe;
+  }
+  .badge i { width: 10px; height: 10px; border-radius: 50%; background: #10b981; display: block; }
+  h1 {
+    font: 700 66px/1.35 'Kantumruy Pro', sans-serif;
+    margin: 22px 0 6px; letter-spacing: -0.5px;
+  }
+  .en { font: 600 30px 'Work Sans', sans-serif; color: #cbd5e1; margin: 0 0 30px; }
+  .apps { display: flex; gap: 14px; margin-bottom: 34px; }
+  .app {
+    font: 700 24px 'Work Sans', sans-serif; padding: 10px 22px; border-radius: 12px; color: #fff;
+  }
+  .word { background: #2563eb; } .excel { background: #16a34a; } .ppt { background: #ea580c; }
+  .meta { font: 600 24px 'Kantumruy Pro', sans-serif; color: #e2e8f0; }
+  .meta span { color: #93c5fd; }
+  .logo {
+    width: 300px; height: 300px; flex-shrink: 0; border-radius: 50%;
+    background: #fff; display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,.45), 0 0 0 10px rgba(255,255,255,.08);
+  }
+  .logo img { width: 280px; height: 280px; object-fit: contain; }
+</style>
+</head>
+<body>
+  <div class="text">
+    <div class="badge"><i></i>វេទិកាសិក្សាឌីជីថល • ៣ ជំពូក • ៣០ មេរៀន</div>
+    <h1>កុំព្យូទ័រអនុវត្តន៍<br>ក្នុងការិយាល័យ</h1>
+    <p class="en">Computer for Office Application</p>
+    <div class="apps">
+      <div class="app word">Word 2021</div>
+      <div class="app excel">Excel 2021</div>
+      <div class="app ppt">PowerPoint 2021</div>
+    </div>
+    <div class="meta">វិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប <span>(RPITSSR)</span></div>
+  </div>
+  <div class="logo"><img src="../images/logo.png" alt=""></div>
+</body>
+</html>
