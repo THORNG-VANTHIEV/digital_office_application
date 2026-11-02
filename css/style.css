@@ -273,6 +273,7 @@ button, input, select, textarea {
   color: var(--kbd-text);
   border-radius: 4px;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* keep "Ctrl + F2" on one line */
 }
 
 .topbar-right {
@@ -1425,25 +1426,13 @@ button, input, select, textarea {
     min-height: auto;
   }
 
+  /* "Next" keeps its arrow on the right (previous = arrow left, next = arrow right) */
   .nav-lesson-btn.nav-next {
     text-align: left;
-    justify-content: flex-start;
-  }
-
-  .nav-lesson-btn.nav-next .nav-btn-content {
-    order: 2;
-  }
-
-  .nav-lesson-btn.nav-next .nav-btn-icon-box {
-    order: 1;
   }
 
   .nav-lesson-btn.nav-next .nav-btn-meta {
     justify-content: flex-start;
-  }
-
-  .nav-lesson-btn.nav-next:hover .nav-arrow-icon {
-    transform: translateX(4px);
   }
 }
 
@@ -2267,4 +2256,314 @@ button, input, select, textarea {
   border-color: var(--primary);
   transform: translateY(-2px);
   box-shadow: var(--shadow-xl);
+}
+
+/* ==========================================================================
+   Phone polish (<= 600px)
+   Narrower gutters, left-aligned text (justify leaves big gaps in short Khmer/English
+   lines), tighter vertical rhythm, and a cleaner lesson header / home hero.
+   ========================================================================== */
+@media (max-width: 600px) {
+  /* --- page gutters & cards --- */
+  .main-content {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .lesson-header-card,
+  .section-card {
+    padding: 1.1rem 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  /* --- text: no justify on narrow screens --- */
+  .prose-text,
+  .step-row,
+  .step-row > div:last-child,
+  .bullet-row,
+  .bullet-row > div:last-child,
+  .callout-content,
+  .objective-item {
+    text-align: left !important;
+  }
+
+  .prose-text {
+    line-height: 1.85;
+  }
+
+  /* --- vertical rhythm inside a section --- */
+  .section-content {
+    gap: 0.9rem;
+  }
+
+  .section-heading {
+    margin-bottom: 1rem;
+    padding-left: 0.7rem;
+  }
+
+  .subsection-heading {
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .subtopic-heading {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .steps-container,
+  .bullets-container {
+    gap: 0.45rem;
+    margin: 0;
+  }
+
+  .callout-box {
+    padding: 0.9rem 1rem;
+    gap: 0.7rem;
+    margin: 0;
+  }
+
+  /* --- screenshots use (almost) the full width --- */
+  .image-card {
+    padding: 0.45rem;
+    margin: 0.25rem 0;
+    border-radius: 12px;
+  }
+
+  .image-wrapper {
+    border-radius: 8px;
+  }
+
+  .image-caption {
+    margin-top: 0.45rem;
+    font-size: 0.8rem;
+    padding: 0 0.4rem;
+  }
+
+  .zoom-overlay-hint {
+    display: none;
+  }
+
+  /* --- tables & formulas --- */
+  .table-container {
+    margin: 0.25rem 0;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 0.55rem 0.65rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .formula-container {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0.8rem 0.9rem;
+  }
+
+  .formula-container code {
+    flex: 1 1 100%;
+    overflow-wrap: anywhere;
+  }
+
+  /* --- lesson header: tags, title, time + print, then a full-width "mark complete" --- */
+  .lesson-header-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lesson-header-top {
+    display: contents;
+  }
+
+  .lesson-meta-tags {
+    order: 1;
+    gap: 0.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .tag-badge {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.55rem;
+  }
+
+  .lesson-header-title {
+    order: 2;
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+  }
+
+  .lesson-action-bar {
+    order: 3;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .lesson-action-bar > span {
+    white-space: nowrap;
+    font-size: 0.8rem !important;
+  }
+
+  .lesson-action-bar .btn-copy-formula {
+    white-space: nowrap;
+    padding: 0.4rem 0.65rem;
+  }
+
+  #btnHeaderComplete {
+    order: 4;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.85rem;
+    padding: 0.7rem 1rem;
+  }
+
+  /* --- objectives --- */
+  .objectives-card {
+    padding: 1.1rem 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .objectives-title {
+    align-items: flex-start;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .objectives-title svg {
+    margin-top: 0.3rem;
+    flex-shrink: 0;
+  }
+
+  /* --- end-of-lesson card & prev/next --- */
+  .lesson-complete-card {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .lesson-complete-card .btn-complete-toggle {
+    justify-content: center;
+    padding: 0.7rem 1rem;
+  }
+
+  .lesson-navigation-footer {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+  }
+
+  .nav-btn-title {
+    font-size: 0.92rem;
+  }
+
+  .nav-btn-icon-box {
+    width: 38px;
+    height: 38px;
+  }
+
+  /* --- top bar: the bottom bar already has Search, so give the title room --- */
+  .mobile-search-btn {
+    display: none !important;
+  }
+
+  .brand-title {
+    max-width: none;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  /* --- home --- */
+  .home-hero-card {
+    padding: 1.4rem 1.1rem;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-hero-logo {
+    order: -1;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-hero-logo img {
+    max-width: 104px;
+  }
+
+  .home-hero-content {
+    min-width: 0;
+  }
+
+  /* first line in the hero: the small "schedule" badge */
+  .home-hero-content > div:first-child {
+    font-size: 0.72rem !important;
+    padding: 0.3rem 0.75rem !important;
+    line-height: 1.5;
+  }
+
+  .home-hero-content h1 {
+    font-size: 1.55rem !important;
+  }
+
+  .home-hero-content p {
+    font-size: 0.95rem !important;
+  }
+
+  /* institution / author / year lines */
+  .home-hero-content > div:nth-of-type(2) {
+    font-size: 0.88rem !important;
+    text-align: left;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.75rem 0.85rem;
+  }
+
+  /* the two buttons: equal, full width */
+  .home-hero-content > div:last-child {
+    flex-direction: column;
+    gap: 0.6rem !important;
+  }
+
+  .home-hero-content > div:last-child a {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .document-container {
+    gap: 1.25rem;
+  }
+
+  .home-chapters-grid {
+    gap: 0.75rem;
+  }
+
+  .home-chapter-card {
+    padding: 1.1rem 1.15rem;
+  }
+
+  .home-chapter-card > div:last-child {
+    margin-top: 0.85rem !important;
+    padding-top: 0.7rem !important;
+  }
+
+  .install-guide-card {
+    padding: 1.1rem 1rem !important;
+  }
+
+  /* preface / intro / references */
+  .document-article h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
 }

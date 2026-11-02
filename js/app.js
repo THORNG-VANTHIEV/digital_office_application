@@ -952,7 +952,7 @@
         </div>
 
         <!-- Mobile Study & PWA Installation Guide -->
-        <div style="background-color:var(--bg-card); border:1px solid var(--border-color); border-radius:16px; padding:1.75rem; box-shadow:var(--shadow-sm);">
+        <div class="install-guide-card" style="background-color:var(--bg-card); border:1px solid var(--border-color); border-radius:16px; padding:1.75rem; box-shadow:var(--shadow-sm);">
           <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
             <div style="width:40px; height:40px; border-radius:10px; background-color:rgba(37,99,235,0.12); display:flex; align-items:center; justify-content:center; color:var(--primary);">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
