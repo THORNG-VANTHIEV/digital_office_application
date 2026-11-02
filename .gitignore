@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Source Word document of the course book (large, kept out of the repo)
+*.docx
