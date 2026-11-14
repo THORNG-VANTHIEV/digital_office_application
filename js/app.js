@@ -345,7 +345,7 @@
       function navigatePrevLesson() {
         const data = window.COURSE_DATA;
         if (!data || !data.lessons) return;
-        const currentId = window.location.hash.replace('#', '') || 'home';
+        const currentId = (window.location.hash.replace('#', '') || 'home').split('/')[0];
         if (currentId === 'references') {
           window.location.hash = `#${data.lessons[data.lessons.length - 1].id}`;
           return;
@@ -365,7 +365,7 @@
       function navigateNextLesson() {
         const data = window.COURSE_DATA;
         if (!data || !data.lessons) return;
-        const currentId = window.location.hash.replace('#', '') || 'home';
+        const currentId = (window.location.hash.replace('#', '') || 'home').split('/')[0];
         if (currentId === 'home') {
           window.location.hash = '#preface';
         } else if (currentId === 'preface') {
@@ -386,6 +386,7 @@
 
       function handleRoute() {
         const hash = window.location.hash.replace('#', '') || 'home';
+        const sectionRoute = hash.match(/^(lesson-\d+)\/section-(\d+)$/);
 
         // Close mobile drawer if open
         state.mobileSidebarOpen = false;
@@ -405,10 +406,10 @@
         } else if (hash === 'references') {
           state.currentView = 'references';
           renderReferencesView();
-        } else if (hash.startsWith('lesson-')) {
+        } else if (sectionRoute || hash.startsWith('lesson-')) {
           state.currentView = 'lesson';
-          state.currentLessonId = hash;
-          renderLessonView(hash);
+          state.currentLessonId = sectionRoute ? sectionRoute[1] : hash;
+          renderLessonView(state.currentLessonId);
         } else {
           state.currentView = 'home';
           renderHomeView();
@@ -418,6 +419,11 @@
         window.scrollTo(0, 0);
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
+        if (sectionRoute) {
+          requestAnimationFrame(() => {
+            document.getElementById(`section-${sectionRoute[2]}`)?.scrollIntoView();
+          });
+        }
       }
 
       // Sidebar Rendering
@@ -705,7 +711,7 @@
         <article class="section-card" id="section-${sIdx}">
           <h2 class="section-heading">
             <span>${sec.title}</span>
-            <a href="#section-${sIdx}" style="color:var(--text-subtle); text-decoration:none; font-size:1rem;" title="ចម្លងតំណភ្ជាប់">#</a>
+            <a href="#${lesson.id}/section-${sIdx}" style="color:var(--text-subtle); text-decoration:none; font-size:1rem;" title="តំណភ្ជាប់ទៅផ្នែកនេះ" aria-label="តំណភ្ជាប់ទៅផ្នែក ${escapeHtml(sec.title)}">#</a>
           </h2>
           <div class="section-content">
       `;
@@ -809,7 +815,7 @@
               html += `
             <div class="formula-container">
               <code>${escapeHtml(item.text)}</code>
-              <button class="btn-copy-formula" onclick="window.copyFormula('${escapeForJs(item.text)}')">
+              <button class="btn-copy-formula" onclick="window.copyFormula('${escapeHtml(escapeForJs(item.text))}')">
                 ចម្លងរូបមន្ត (Copy)
               </button>
             </div>
@@ -817,7 +823,7 @@
             } else if (item.type === 'image') {
               html += `
             <figure class="image-card">
-              <div class="image-wrapper" onclick="window.openLightbox('${item.src}', '${escapeForJs(item.caption || '')}')">
+              <div class="image-wrapper" onclick="window.openLightbox('${escapeHtml(escapeForJs(item.src))}', '${escapeHtml(escapeForJs(item.caption || ''))}')">
                 <img class="content-screenshot" src="${item.src}" alt="${escapeHtml(item.caption || '')}" loading="lazy" />
                 <div class="zoom-overlay-hint">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
@@ -1234,7 +1240,9 @@
       }
 
       function escapeForJs(str) {
-        return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+        return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'")
+          .replace(/\r/g, '\\r').replace(/\n/g, '\\n')
+          .replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
       }
 
       // Search Engine
